@@ -10,4 +10,4 @@ Hong Kong. Local AI infrastructure and game tooling.
 
 **Upstream contributions:** when I depend on a library and find a real bug, I send the fix back. Open contributions are visible via [PRs by me](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) / [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions).
 
-Open to collaboration on local AI video pipelines, ComfyUI custom nodes, or anything in the Ascension WoW addon ecosystem. cbosch101 [at] gmail.
+Open to collaboration on local AI video pipelines, ComfyUI custom nodes, or anything in the Ascension WoW addon ecosystem. cbosch101@gmail.
