@@ -22,6 +22,8 @@ import viz
 USER = "Booyaka101"
 RADAR = "https://booyaka101.github.io/hass-breakage-radar/index.json"
 FABLE = "https://booyaka101.github.io/thedailyfable/feed.xml"
+CENSUS = ("https://raw.githubusercontent.com/Booyaka101/npm-install-census/"
+          "main/data/census.json")
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -117,6 +119,23 @@ def radar_stats() -> dict | None:
     }
 
 
+def census_stats() -> dict | None:
+    try:
+        d = json.loads(get(CENSUS))
+    except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
+        return None
+    if d.get("coverage", 1) < 0.95:  # the census aborts below this; don't show a partial
+        return None
+    top = (d.get("top_risky") or [{}])[0]
+    return {
+        "total": d.get("total", 0),
+        "scripted": d.get("with_install_scripts", 0),
+        "high": (d.get("risk") or {}).get("HIGH", 0),
+        "top_name": top.get("name"),
+        "top_downloads": top.get("downloads", 0),
+    }
+
+
 def fable_latest() -> dict | None:
     try:
         root = ET.fromstring(get(FABLE))
@@ -161,6 +180,7 @@ def main() -> int:
     up = upstream_stats(token)
     radar = radar_stats()
     fable = fable_latest()
+    census = census_stats()
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
 
@@ -192,6 +212,19 @@ def main() -> int:
             f"{nxt}",
         )
 
+    if census:
+        line = (
+            f"> Today's census audited **{census['total']:,}** packages from the "
+            f"registry: **{census['scripted']}** run an install script, "
+            f"**{census['high']}** score HIGH."
+        )
+        if census["top_name"]:
+            line += (
+                f" Biggest is `{census['top_name']}` at "
+                f"{census['top_downloads'] / 1e6:.1f}M installs a week."
+            )
+        readme = replace_block(readme, "census", line)
+
     # Latest Daily Fable.
     if fable:
         readme = replace_block(
@@ -207,6 +240,8 @@ def main() -> int:
     if radar:
         cells.append((f"{radar['scanned']:,}", "INTEGRATIONS WATCHED"))
         cells.append((f"{radar['affected']:,}", "BREAKING AHEAD"))
+    if census:
+        cells.append((str(census["scripted"]), "NPM INSTALL SCRIPTS"))
     if fable and fable["day"]:
         cells.append((f"DAY {fable['day']}", "DAILY FABLE STREAK"))
 
