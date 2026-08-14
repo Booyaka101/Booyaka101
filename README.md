@@ -3,8 +3,8 @@
 Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI pipelines and game tooling.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img alt="Live project stats" src="assets/stats-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Live project figures over a flow field seeded by today's date" src="assets/hero-light.svg">
 </picture>
 
 <!-- auto:stamp -->
@@ -18,6 +18,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 <!-- auto:radar -->
 > Today's crawl checked **3,088** HACS integrations against core 2026.9 and found **1,573** deprecation hits across **625** repos. **2,445** are clean. Next up: **11** break in Home Assistant 2026.10.
 <!-- /auto:radar -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/breakage-dark.svg">
+  <img alt="Column chart: when HACS integrations first break, by Home Assistant release" src="assets/breakage-light.svg">
+</picture>
 
 **[ts7-compat-guard](https://github.com/Booyaka101/ts7-compat-guard)**. TypeScript 7.0 / tsgo readiness scanner. Compiler-API dependencies and removed tsconfig options with line numbers. Config-only, so no false positives. CLI, GitHub Action, SARIF.
 
