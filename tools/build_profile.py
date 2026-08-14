@@ -17,14 +17,12 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
+import viz
+
 USER = "Booyaka101"
 RADAR = "https://booyaka101.github.io/hass-breakage-radar/index.json"
 FABLE = "https://booyaka101.github.io/thedailyfable/feed.xml"
 ROOT = Path(__file__).resolve().parent.parent
-
-# Daily Fable palette.
-BG, FG, DIM, LINE, ACC = "#05060a", "#d6dbe6", "#8a93a6", "#1a1e28", "#4fb3ff"
-BG_L, FG_L, DIM_L, LINE_L, ACC_L = "#ffffff", "#1f2328", "#59636e", "#d1d9e0", "#0969da"
 
 
 def get(url: str, token: str | None = None) -> bytes:
@@ -80,19 +78,33 @@ def upstream_stats(token: str | None) -> dict:
     }
 
 
+def _relkey(rel: str) -> tuple:
+    """Sort '2026.9' before '2026.10' (string sort gets this wrong)."""
+    try:
+        return tuple(int(p) for p in rel.split("."))
+    except ValueError:
+        return (9999,)
+
+
 def radar_stats() -> dict | None:
     try:
         d = json.loads(get(RADAR))
     except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
         return None
     cov = d.get("coverage", {})
-    releases = d.get("releases", {})
-    nxt, nxt_n = None, 0
-    for rel in sorted(releases):
-        if releases[rel]:
-            nxt, nxt_n = rel, len(releases[rel])
-            break
+    # Bucket each integration by the FIRST release that breaks it. The
+    # `releases` map counts an integration once per breaking release, so it
+    # over-counts (657 vs 625 affected); this sums to the affected total.
+    first: dict[str, int] = {}
+    for it in d.get("integrations", []):
+        rel = it.get("earliest_breaks_in")
+        if rel:
+            first[rel] = first.get(rel, 0) + 1
+    buckets = sorted(first.items(), key=lambda kv: _relkey(kv[0]))
+
+    nxt, nxt_n = (buckets[0] if buckets else (None, 0))
     return {
+        "buckets": buckets,
         "scanned": cov.get("repos_scanned", 0),
         "affected": cov.get("repos_affected", 0),
         "clean": cov.get("repos_clean", 0),
@@ -132,45 +144,6 @@ def esc(s: str) -> str:
     return (
         s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     )
-
-
-def strip_svg(cells: list[tuple[str, str]], dark: bool) -> str:
-    """A row of value/label tiles in the Daily Fable terminal style."""
-    bg, fg, dim, line, acc = (
-        (BG, FG, DIM, LINE, ACC) if dark else (BG_L, FG_L, DIM_L, LINE_L, ACC_L)
-    )
-    pad, gap, h = 20, 30, 78
-    # Monospace advance widths for the two type sizes, plus label letter-spacing.
-    widths = [
-        max(len(value) * 12.7, len(label) * 7.7) for value, label in cells
-    ]
-    w = int(pad * 2 + sum(widths) + gap * (len(cells) - 1))
-    mono = "ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace"
-
-    parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
-        f'viewBox="0 0 {w} {h}" role="img" aria-label="Live project stats">',
-        f'<rect width="{w}" height="{h}" rx="8" fill="{bg}" stroke="{line}"/>',
-    ]
-    x = float(pad)
-    for i, (value, label) in enumerate(cells):
-        if i:
-            lx = round(x - gap / 2)
-            parts.append(
-                f'<line x1="{lx}" y1="18" x2="{lx}" y2="{h - 18}" stroke="{line}"/>'
-            )
-        x = round(x, 1)
-        parts.append(
-            f'<text x="{x}" y="34" font-family="{mono}" font-size="21" '
-            f'fill="{acc}" font-weight="600">{esc(value)}</text>'
-        )
-        parts.append(
-            f'<text x="{x}" y="55" font-family="{mono}" font-size="11" '
-            f'fill="{dim}" letter-spacing="1.1">{esc(label)}</text>'
-        )
-        x += widths[i] + gap
-    parts.append("</svg>")
-    return "\n".join(parts)
 
 
 def replace_block(text: str, name: str, body: str) -> str:
@@ -237,15 +210,24 @@ def main() -> int:
     if fable and fable["day"]:
         cells.append((f"DAY {fable['day']}", "DAILY FABLE STREAK"))
 
-    if cells:
-        assets = ROOT / "assets"
-        assets.mkdir(exist_ok=True)
-        (assets / "stats-dark.svg").write_text(strip_svg(cells, True), encoding="utf-8")
-        (assets / "stats-light.svg").write_text(
-            strip_svg(cells, False), encoding="utf-8"
-        )
-
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    assets = ROOT / "assets"
+    assets.mkdir(exist_ok=True)
+
+    if cells:
+        seed = f"seed {stamp}"
+        for dark, name in ((True, "hero-dark.svg"), (False, "hero-light.svg")):
+            (assets / name).write_text(
+                viz.hero(cells, seed, dark), encoding="utf-8"
+            )
+
+    if radar and radar["buckets"]:
+        for dark, name in ((True, "breakage-dark.svg"), (False, "breakage-light.svg")):
+            (assets / name).write_text(
+                viz.breakage_chart(radar["buckets"], radar["core"], dark),
+                encoding="utf-8",
+            )
+
     readme = replace_block(readme, "stamp", f"<sub>Live figures, rebuilt {stamp}.</sub>")
 
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
