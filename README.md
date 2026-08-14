@@ -26,7 +26,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 
 **[ts7-compat-guard](https://github.com/Booyaka101/ts7-compat-guard)**. TypeScript 7.0 / tsgo readiness scanner. Compiler-API dependencies and removed tsconfig options with line numbers. Config-only, so no false positives. CLI, GitHub Action, SARIF.
 
-**[npm-script-lens](https://github.com/Booyaka101/npm-script-lens)**. Audit npm lifecycle scripts for behavioural risk before you approve them under npm v12 `allowScripts`.
+**[npm-script-lens](https://github.com/Booyaka101/npm-script-lens)**. Audit npm lifecycle scripts for behavioural risk before you approve them under npm v12 `allowScripts`. I run it daily against a download-ranked sample of the registry and publish the result as the [npm install-script census](https://github.com/Booyaka101/npm-install-census).
+
+<!-- auto:census -->
+> Today's census audited **3,077** packages from the registry: **25** run an install script, **18** score HIGH. Biggest is `esbuild` at 255.5M installs a week.
+<!-- /auto:census -->
 
 **[rust-symbol-audit](https://github.com/Booyaka101/rust-symbol-audit)**. Capability-creep triage for Rust dependency PRs. Diffs demangled symbols, inspects `build.rs` and proc-macros, checks provenance and advisories, with a review ratchet you can block merges on.
 
