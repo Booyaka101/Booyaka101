@@ -1,0 +1,46 @@
+name: refresh profile
+
+on:
+  schedule:
+    # 11:00 UTC lands after the breakage-radar crawl (~04:00) and after the
+    # Daily Fable posts (18:00 +0800).
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - tools/build_profile.py
+      - .github/workflows/refresh.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild live sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/build_profile.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Refresh live profile figures"
+            git push
+          fi
