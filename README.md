@@ -8,7 +8,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-08-22.</sub>
+<sub>Live figures, rebuilt 2026-08-23.</sub>
 <!-- /auto:stamp -->
 
 ### Tools
@@ -16,7 +16,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **3,905** HACS integrations against core 2026.9 and found **1,892** deprecation hits across **732** repos. **2,411** are clean. Next up: **11** break in Home Assistant 2026.10.
+> Today's crawl checked **3,908** HACS integrations against core 2026.9 and found **1,926** deprecation hits across **743** repos. **2,403** are clean. Next up: **11** break in Home Assistant 2026.10.
 <!-- /auto:radar -->
 
 <picture>
@@ -29,7 +29,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 **[npm-script-lens](https://github.com/Booyaka101/npm-script-lens)**. Audit npm lifecycle scripts for behavioural risk before you approve them under npm v12 `allowScripts`. I run it daily against a download-ranked sample of the registry and publish the result as the [npm install-script census](https://github.com/Booyaka101/npm-install-census).
 
 <!-- auto:census -->
-> Today's census audited **2,941** packages from the registry: **23** run an install script, **16** score HIGH. Biggest is `esbuild` at 255.5M installs a week.
+> Today's census audited **3,026** packages from the registry: **23** run an install script, **16** score HIGH. Biggest is `esbuild` at 255.5M installs a week.
 <!-- /auto:census -->
 
 **[rust-symbol-audit](https://github.com/Booyaka101/rust-symbol-audit)**. Capability-creep triage for Rust dependency PRs. Diffs demangled symbols, inspects `build.rs` and proc-macros, checks provenance and advisories, with a review ratchet you can block merges on.
@@ -43,7 +43,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 ### Upstream
 
 <!-- auto:upstream -->
-When I depend on something and hit a real bug, I send the fix back. **46 merged PRs across 26 projects**, including koreader (2), nvim-lspconfig, gh-dash (2), sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust, aerial.nvim (2), obsidian.nvim (2). 34 more open.
+When I depend on something and hit a real bug, I send the fix back. **46 merged PRs across 26 projects**, including koreader (2), nvim-lspconfig, gh-dash (2), sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust, aerial.nvim (2), obsidian.nvim (2). 35 more open.
 <!-- /auto:upstream -->
 
 [Every PR I've opened](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) · [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions)
@@ -53,7 +53,7 @@ When I depend on something and hit a real bug, I send the fix back. **46 merged 
 **[The Daily Fable](https://booyaka101.github.io/thedailyfable/)**. One brand-new generative piece every day, made end to end by an AI. So far: typefaces, a fugue under strict counterpoint, a board game, a neural net learning English from one book, and field recordings of a language family that never existed.
 
 <!-- auto:fable -->
-> Latest: [Day 26 — THE SAME DRUM: two shapes, one sound, and the proof you can play](https://booyaka101.github.io/thedailyfable/day26/) · 2026-08-22 · 26 pieces so far.
+> Latest: [Day 27 — THE GRAVITY COMPUTER: 13 + 14, computed by falling marbles](https://youtu.be/rEc5tu4tQ4w) · 2026-08-23 · 27 pieces so far.
 <!-- /auto:fable -->
 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
