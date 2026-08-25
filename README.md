@@ -59,5 +59,3 @@ When I depend on something and hit a real bug, I send the fix back. **46 merged 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
 
 WoW Ascension (3.3.5) addons: **[Scrap](https://github.com/Booyaka101/Scrap)** (auto-sell greys, AdiBags and Bagnon integration) and **[CCTracker](https://github.com/Booyaka101/CCTracker)** (crowd control, silence and interrupt tracker).
-
-Open to work on dependency-security tooling, ComfyUI pipelines, or anything in the Ascension addon ecosystem. cbosch101@gmail.com
