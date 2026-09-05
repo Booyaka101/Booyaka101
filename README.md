@@ -8,7 +8,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-09-04.</sub>
+<sub>Live figures, rebuilt 2026-09-05.</sub>
 <!-- /auto:stamp -->
 
 ### Tools
@@ -16,7 +16,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **4,009** HACS integrations against core 2026.10 and found **2,244** deprecation hits across **876** repos. **2,357** are clean. Next up: **11** break in Home Assistant 2026.10.
+> Today's crawl checked **4,009** HACS integrations against core 2026.10 and found **2,217** deprecation hits across **871** repos. **2,363** are clean. Next up: **11** break in Home Assistant 2026.10.
 <!-- /auto:radar -->
 
 <picture>
@@ -43,7 +43,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 ### Upstream
 
 <!-- auto:upstream -->
-When I depend on something and hit a real bug, I send the fix back. **46 merged PRs across 26 projects**, including koreader (2), nvim-lspconfig, gh-dash (2), sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust, aerial.nvim (2), obsidian.nvim (2). 35 more open.
+When I depend on something and hit a real bug, I send the fix back. **46 merged PRs across 26 projects**, including koreader (2), nvim-lspconfig, gh-dash (2), sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust, aerial.nvim (2), obsidian.nvim (2). 34 more open.
 <!-- /auto:upstream -->
 
 [Every PR I've opened](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) · [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions)
@@ -53,7 +53,7 @@ When I depend on something and hit a real bug, I send the fix back. **46 merged 
 **[The Daily Fable](https://booyaka101.github.io/thedailyfable/)**. One brand-new generative piece every day, made end to end by an AI. So far: typefaces, a fugue under strict counterpoint, a board game, a neural net learning English from one book, and field recordings of a language family that never existed.
 
 <!-- auto:fable -->
-> Latest: [Day 39 — The Tongues of Penlod](https://booyaka101.github.io/thedailyfable/day39/) · 2026-09-04 · 39 pieces so far.
+> Latest: [Day 40 — An Orrery for a Sky That Does Not Exist](https://booyaka101.github.io/thedailyfable/day40/) · 2026-09-05 · 40 pieces so far.
 <!-- /auto:fable -->
 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
