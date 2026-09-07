@@ -24,6 +24,8 @@ RADAR = "https://booyaka101.github.io/hass-breakage-radar/index.json"
 FABLE = "https://booyaka101.github.io/thedailyfable/feed.xml"
 CENSUS = ("https://raw.githubusercontent.com/Booyaka101/npm-install-census/"
           "main/data/census.json")
+ESLINT = "https://booyaka101.github.io/eslint10-matrix/matrix.json"
+NPM_POINT = "https://api.npmjs.org/downloads/point/last-week/"
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -136,6 +138,73 @@ def census_stats() -> dict | None:
     }
 
 
+def npm_stats(token: str | None) -> dict | None:
+    """Weekly installs across the packages I publish.
+
+    The package list comes off the repo homepages rather than a hardcoded
+    list, so publishing something new and pointing its homepage at npm is all
+    it takes to get counted.
+    """
+    pkgs = set()
+    for page in range(1, 3):
+        rows = json.loads(
+            get(f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}", token)
+        )
+        for repo in rows:
+            home = repo.get("homepage") or ""
+            if "npmjs.com/package/" in home and not repo.get("archived"):
+                pkgs.add(home.split("npmjs.com/package/", 1)[1].strip("/"))
+        if len(rows) < 100:
+            break
+    if not pkgs:
+        return None
+
+    total, top, top_n = 0, "", 0
+    for pkg in sorted(pkgs):
+        try:
+            d = json.loads(get(f"{NPM_POINT}{pkg}"))
+        except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
+            continue
+        n = d.get("downloads") or 0
+        total += n
+        if n > top_n:
+            top, top_n = pkg, n
+    if not total:
+        return None
+    return {"packages": len(pkgs), "weekly": total, "top": top, "top_n": top_n}
+
+
+def eslint_stats() -> dict | None:
+    """How the ESLint plugin matrix landed on the current 10.x."""
+    try:
+        d = json.loads(get(ESLINT))
+    except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
+        return None
+    versions = d.get("eslintVersions") or {}
+    v9, v10 = versions.get("v9"), versions.get("v10")
+    plugins = d.get("plugins") or []
+    if not (v9 and v10 and plugins):
+        return None
+
+    def status(plugin: dict, version: str) -> str | None:
+        return ((plugin.get("results") or {}).get(version) or {}).get("status")
+
+    return {
+        "total": len(plugins),
+        "clean": sum(1 for pl in plugins if status(pl, v10) == "clean"),
+        # Clean on 9 and not on 10 is the number that actually blocks an
+        # upgrade; a plugin already broken on 9 is a different problem.
+        "broke": sum(
+            1
+            for pl in plugins
+            if status(pl, v9) == "clean" and status(pl, v10) != "clean"
+        ),
+        "reach": sum(pl.get("weeklyDownloads") or 0 for pl in plugins),
+        "v10": v10,
+        "v9": v9,
+    }
+
+
 def fable_latest() -> dict | None:
     try:
         root = ET.fromstring(get(FABLE))
@@ -181,6 +250,8 @@ def main() -> int:
     radar = radar_stats()
     fable = fable_latest()
     census = census_stats()
+    npm = npm_stats(token)
+    eslint = eslint_stats()
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
 
@@ -225,6 +296,26 @@ def main() -> int:
             )
         readme = replace_block(readme, "census", line)
 
+    if npm:
+        line = (
+            f"> The packages I publish are pulling **{npm['weekly']:,}** installs a "
+            f"week between **{npm['packages']}** of them"
+        )
+        if npm["top"]:
+            line += f", most of it `{npm['top']}` at {npm['top_n']:,}"
+        readme = replace_block(readme, "npm", line + ".")
+
+    if eslint:
+        readme = replace_block(
+            readme,
+            "eslint",
+            f"> Last night's matrix ran **{eslint['total']}** plugins, "
+            f"{eslint['reach'] / 1e6:.0f}M weekly installs between them, against "
+            f"ESLint {eslint['v10']}: **{eslint['clean']}** clean, "
+            f"**{eslint['total'] - eslint['clean']}** not. "
+            f"**{eslint['broke']}** of those worked on {eslint['v9']}.",
+        )
+
     # Latest Daily Fable.
     if fable:
         readme = replace_block(
@@ -240,8 +331,8 @@ def main() -> int:
     if radar:
         cells.append((f"{radar['scanned']:,}", "INTEGRATIONS WATCHED"))
         cells.append((f"{radar['affected']:,}", "BREAKING AHEAD"))
-    if census:
-        cells.append((str(census["scripted"]), "NPM INSTALL SCRIPTS"))
+    if npm:
+        cells.append((f"{npm['weekly']:,}", "INSTALLS A WEEK"))
     if fable and fable["day"]:
         cells.append((f"DAY {fable['day']}", "DAILY FABLE STREAK"))
 
@@ -268,7 +359,11 @@ def main() -> int:
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     print(
         f"upstream merged={up['merged']} projects={up['projects']} open={up['open']}\n"
-        f"radar={'ok' if radar else 'unavailable'} fable={'ok' if fable else 'unavailable'}"
+        f"radar={'ok' if radar else 'unavailable'} "
+        f"fable={'ok' if fable else 'unavailable'} "
+        f"census={'ok' if census else 'unavailable'} "
+        f"npm={'ok' if npm else 'unavailable'} "
+        f"eslint={'ok' if eslint else 'unavailable'}"
     )
     return 0
 
