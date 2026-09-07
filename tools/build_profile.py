@@ -159,19 +159,23 @@ def npm_stats(token: str | None) -> dict | None:
     if not pkgs:
         return None
 
-    total, top, top_n = 0, "", 0
+    each = {}
     for pkg in sorted(pkgs):
         try:
             d = json.loads(get(f"{NPM_POINT}{pkg}"))
         except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
             continue
-        n = d.get("downloads") or 0
-        total += n
-        if n > top_n:
-            top, top_n = pkg, n
-    if not total:
+        each[pkg] = d.get("downloads") or 0
+    if not each:
         return None
-    return {"packages": len(pkgs), "weekly": total, "top": top, "top_n": top_n}
+    top = max(each, key=lambda k: each[k])
+    return {
+        "packages": len(pkgs),
+        "weekly": sum(each.values()),
+        "top": top,
+        "top_n": each[top],
+        "each": each,
+    }
 
 
 def eslint_stats() -> dict | None:
@@ -357,6 +361,30 @@ def main() -> int:
     readme = replace_block(readme, "stamp", f"<sub>Live figures, rebuilt {stamp}.</sub>")
 
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
+
+    # Everything this run computed, published for booyaka101.github.io so the
+    # site and the profile can never disagree and nothing is fetched twice.
+    data = ROOT / "data"
+    data.mkdir(exist_ok=True)
+    (data / "figures.json").write_text(
+        json.dumps(
+            {
+                "generated_utc": datetime.now(timezone.utc).isoformat(
+                    timespec="seconds"
+                ),
+                "upstream": up,
+                "radar": radar,
+                "census": census,
+                "npm": npm,
+                "eslint": eslint,
+                "fable": fable,
+            },
+            indent=1,
+            sort_keys=True,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     print(
         f"upstream merged={up['merged']} projects={up['projects']} open={up['open']}\n"
         f"radar={'ok' if radar else 'unavailable'} "

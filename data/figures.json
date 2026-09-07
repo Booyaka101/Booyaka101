@@ -1,0 +1,211 @@
+{
+ "census": {
+  "high": 17,
+  "scripted": 26,
+  "top_downloads": 255499108,
+  "top_name": "esbuild",
+  "total": 3126
+ },
+ "eslint": {
+  "broke": 6,
+  "clean": 44,
+  "reach": 569394261,
+  "total": 54,
+  "v10": "10.10.0",
+  "v9": "9.39.5"
+ },
+ "fable": {
+  "count": 42,
+  "date": "2026-09-07",
+  "day": 42,
+  "link": "https://booyaka101.github.io/thedailyfable/day42/",
+  "title": "Day 42 \u2014 Paper That Remembers"
+ },
+ "generated_utc": "2026-09-07T13:51:47+00:00",
+ "npm": {
+  "each": {
+   "@booyaka/mcp-vet": 542,
+   "actions-attic": 33,
+   "agent-plugins-conformance-kit": 153,
+   "cargo-witness": 39,
+   "cse-bridge": 6,
+   "eslint10-matrix": 10,
+   "gemcatch": 158,
+   "grok-loop-kit": 10,
+   "grokscope": 5,
+   "mcp-app-debug": 510,
+   "npm-script-lens": 348,
+   "pal-schema-collect": 3,
+   "pmpt-eject": 4,
+   "pnpm11-ci-guard": 4,
+   "runner-drift": 94,
+   "studio-os": 5,
+   "ts7-compat-guard": 38,
+   "wow-secret-lint": 797
+  },
+  "packages": 18,
+  "top": "wow-secret-lint",
+  "top_n": 797,
+  "weekly": 2759
+ },
+ "radar": {
+  "affected": 922,
+  "buckets": [
+   [
+    "2026.10",
+    11
+   ],
+   [
+    "2026.11",
+    96
+   ],
+   [
+    "2027.5",
+    10
+   ],
+   [
+    "2027.6",
+    50
+   ],
+   [
+    "2027.7",
+    15
+   ],
+   [
+    "2027.8",
+    690
+   ],
+   [
+    "2027.9",
+    49
+   ],
+   [
+    "2027.10",
+    1
+   ]
+  ],
+  "clean": 2314,
+  "core": "2026.10",
+  "findings": 2504,
+  "generated": "2026-09-07T03:32:43Z",
+  "next_count": 11,
+  "next_release": "2026.10",
+  "rules": 123,
+  "scanned": 4009
+ },
+ "upstream": {
+  "merged": 47,
+  "open": 34,
+  "projects": 27,
+  "top": [
+   [
+    "koreader/koreader",
+    2
+   ],
+   [
+    "neovim/nvim-lspconfig",
+    1
+   ],
+   [
+    "dlvhdr/gh-dash",
+    2
+   ],
+   [
+    "ostris/ai-toolkit",
+    1
+   ],
+   [
+    "sqlfluff/sqlfluff",
+    6
+   ],
+   [
+    "nvim-lualine/lualine.nvim",
+    1
+   ],
+   [
+    "lirantal/awesome-nodejs-security",
+    1
+   ],
+   [
+    "mitsuhiko/minijinja",
+    1
+   ],
+   [
+    "rust-lang/this-week-in-rust",
+    1
+   ],
+   [
+    "stevearc/aerial.nvim",
+    2
+   ],
+   [
+    "obsidian-nvim/obsidian.nvim",
+    2
+   ],
+   [
+    "probberechts/soccerdata",
+    1
+   ],
+   [
+    "Cockatrice/Cockatrice",
+    1
+   ],
+   [
+    "Kosinkadink/ComfyUI-VideoHelperSuite",
+    1
+   ],
+   [
+    "dlvhdr/diffnav",
+    3
+   ],
+   [
+    "aeon-toolkit/aeon",
+    1
+   ],
+   [
+    "Lifailon/lazyjournal",
+    1
+   ],
+   [
+    "gbprod/yanky.nvim",
+    1
+   ],
+   [
+    "emiago/sipgo",
+    1
+   ],
+   [
+    "vrgamegirl19/comfyui-vrgamedevgirl",
+    2
+   ],
+   [
+    "punkpeye/awesome-mcp-devtools",
+    1
+   ],
+   [
+    "arthurprs/qfilter",
+    1
+   ],
+   [
+    "silveroxides/ComfyUI-ModelUtils",
+    1
+   ],
+   [
+    "darkwyrm/base85",
+    1
+   ],
+   [
+    "benitogf/detritus",
+    9
+   ],
+   [
+    "benitogf/mono",
+    1
+   ],
+   [
+    "benitogf/pivot",
+    1
+   ]
+  ]
+ }
+}

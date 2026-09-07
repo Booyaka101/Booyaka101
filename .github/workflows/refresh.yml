@@ -44,7 +44,7 @@ jobs:
 
             python tools/build_profile.py
 
-            git add README.md assets
+            git add README.md assets data
             if git diff --staged --quiet; then
               echo "nothing changed"
               exit 0
