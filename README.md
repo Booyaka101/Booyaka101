@@ -17,7 +17,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 
 ### Ecosystem watch
 
-Three ecosystems I crawl on a schedule, so the answer is already sitting there when you need it rather than being something you have to go and measure.
+Three ecosystems I crawl on a schedule, so the answer is already sitting there when you need it rather than being something you have to go and measure. All three, and everything I publish, are on one page at [booyaka101.github.io](https://booyaka101.github.io/).
 
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
@@ -45,6 +45,10 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 ### Tools
 
 **[wow-secret-lint](https://github.com/Booyaka101/wow-secret-lint)**. Find WoW retail addon Secret Value violations in Lua before they ship, rather than when a player reports a taint error. CLI plus GitHub Action.
+
+**[mcp-vet](https://github.com/Booyaka101/mcp-vet)**. Scan MCP server source for patterns that break under the 2026-07-28 Model Context Protocol spec, before the spec date rather than after it.
+
+**[mcp-app-debug](https://github.com/Booyaka101/mcp-app-debug)**. Local debug host for MCP Apps. Renders your server's app in a real browser with full postMessage protocol visibility and five automated diagnostics.
 
 **[npm-script-lens](https://github.com/Booyaka101/npm-script-lens)**. Audit npm lifecycle scripts for behavioural risk before you approve them under npm v12 `allowScripts`. Behavioural analysis, `binding.gyp` inspection, resolved provenance identity.
 
