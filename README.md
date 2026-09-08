@@ -8,7 +8,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-09-07.</sub>
+<sub>Live figures, rebuilt 2026-09-08.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
@@ -77,7 +77,7 @@ When I depend on something and hit a real bug, I send the fix back. **47 merged 
 **[The Daily Fable](https://booyaka101.github.io/thedailyfable/)**. One brand-new generative piece every day, made end to end by an AI. So far: typefaces, a fugue under strict counterpoint, a board game, a neural net learning English from one book, and field recordings of a language family that never existed.
 
 <!-- auto:fable -->
-> Latest: [Day 42 — Paper That Remembers](https://booyaka101.github.io/thedailyfable/day42/) · 2026-09-07 · 42 pieces so far.
+> Latest: [Day 43 — Bits Per Glance](https://booyaka101.github.io/thedailyfable/day43/) · 2026-09-08 · 43 pieces so far.
 <!-- /auto:fable -->
 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
