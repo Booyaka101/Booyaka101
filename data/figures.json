@@ -15,13 +15,13 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 44,
-  "date": "2026-09-09",
-  "day": 44,
-  "link": "https://booyaka101.github.io/thedailyfable/day44/",
-  "title": "Day 44 \u2014 Can You Hear the Shape of a Drum?"
+  "count": 45,
+  "date": "2026-09-10",
+  "day": 45,
+  "link": "https://booyaka101.github.io/thedailyfable/day45/",
+  "title": "Day 45 \u2014 Slow Light"
  },
- "generated_utc": "2026-09-09T11:16:58+00:00",
+ "generated_utc": "2026-09-10T11:16:51+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 542,
@@ -49,7 +49,7 @@
   "weekly": 2759
  },
  "radar": {
-  "affected": 912,
+  "affected": 911,
   "buckets": [
    [
     "2026.10",
@@ -57,7 +57,7 @@
    ],
    [
     "2026.11",
-    96
+    97
    ],
    [
     "2027.5",
@@ -65,7 +65,7 @@
    ],
    [
     "2027.6",
-    48
+    47
    ],
    [
     "2027.7",
@@ -77,17 +77,17 @@
    ],
    [
     "2027.9",
-    50
+    49
    ],
    [
     "2027.10",
     1
    ]
   ],
-  "clean": 2325,
+  "clean": 2326,
   "core": "2026.10",
-  "findings": 2415,
-  "generated": "2026-09-09T03:36:44Z",
+  "findings": 2408,
+  "generated": "2026-09-10T03:33:26Z",
   "next_count": 10,
   "next_release": "2026.10",
   "rules": 123,
