@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 45,
-  "date": "2026-09-10",
-  "day": 45,
-  "link": "https://booyaka101.github.io/thedailyfable/day45/",
-  "title": "Day 45 \u2014 Slow Light"
+  "count": 46,
+  "date": "2026-09-11",
+  "day": 46,
+  "link": "https://booyaka101.github.io/thedailyfable/day46/",
+  "title": "Day 46 \u2014 Underhand"
  },
- "generated_utc": "2026-09-10T11:16:51+00:00",
+ "generated_utc": "2026-09-11T11:16:37+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 542,
-   "actions-attic": 33,
-   "agent-plugins-conformance-kit": 153,
-   "cargo-witness": 39,
-   "cse-bridge": 6,
-   "eslint10-matrix": 10,
+   "@booyaka/mcp-vet": 351,
+   "actions-attic": 23,
+   "agent-plugins-conformance-kit": 18,
+   "cargo-witness": 26,
+   "cse-bridge": 5,
+   "eslint10-matrix": 11,
    "gemcatch": 158,
-   "grok-loop-kit": 10,
-   "grokscope": 5,
-   "mcp-app-debug": 510,
-   "npm-script-lens": 348,
+   "grok-loop-kit": 9,
+   "grokscope": 2,
+   "mcp-app-debug": 269,
+   "npm-script-lens": 130,
    "pal-schema-collect": 3,
-   "pmpt-eject": 4,
-   "pnpm11-ci-guard": 4,
-   "runner-drift": 94,
-   "studio-os": 5,
-   "ts7-compat-guard": 38,
-   "wow-secret-lint": 797
+   "pmpt-eject": 2,
+   "pnpm11-ci-guard": 5,
+   "runner-drift": 271,
+   "studio-os": 6,
+   "ts7-compat-guard": 125,
+   "wow-secret-lint": 56
   },
   "packages": 18,
-  "top": "wow-secret-lint",
-  "top_n": 797,
-  "weekly": 2759
+  "top": "@booyaka/mcp-vet",
+  "top_n": 351,
+  "weekly": 1470
  },
  "radar": {
-  "affected": 911,
+  "affected": 907,
   "buckets": [
    [
     "2026.10",
@@ -73,21 +73,21 @@
    ],
    [
     "2027.8",
-    682
+    680
    ],
    [
     "2027.9",
-    49
+    47
    ],
    [
     "2027.10",
     1
    ]
   ],
-  "clean": 2326,
+  "clean": 2330,
   "core": "2026.10",
-  "findings": 2408,
-  "generated": "2026-09-10T03:33:26Z",
+  "findings": 2378,
+  "generated": "2026-09-11T03:32:37Z",
   "next_count": 10,
   "next_release": "2026.10",
   "rules": 123,
