@@ -8,48 +8,48 @@
  },
  "eslint": {
   "broke": 6,
-  "clean": 44,
+  "clean": 46,
   "reach": 569394261,
   "total": 54,
   "v10": "10.10.0",
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 46,
-  "date": "2026-09-11",
-  "day": 46,
-  "link": "https://booyaka101.github.io/thedailyfable/day46/",
-  "title": "Day 46 \u2014 Underhand"
+  "count": 47,
+  "date": "2026-09-12",
+  "day": 47,
+  "link": "https://booyaka101.github.io/thedailyfable/day47/",
+  "title": "Day 47 \u2014 A Fugue No One Wrote"
  },
- "generated_utc": "2026-09-11T11:16:37+00:00",
+ "generated_utc": "2026-09-12T11:13:57+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 351,
-   "actions-attic": 23,
-   "agent-plugins-conformance-kit": 18,
-   "cargo-witness": 26,
-   "cse-bridge": 5,
-   "eslint10-matrix": 11,
-   "gemcatch": 158,
-   "grok-loop-kit": 9,
-   "grokscope": 2,
-   "mcp-app-debug": 269,
-   "npm-script-lens": 130,
+   "@booyaka/mcp-vet": 365,
+   "actions-attic": 31,
+   "agent-plugins-conformance-kit": 21,
+   "cargo-witness": 31,
+   "cse-bridge": 14,
+   "eslint10-matrix": 175,
+   "gemcatch": 167,
+   "grok-loop-kit": 10,
+   "grokscope": 5,
+   "mcp-app-debug": 300,
+   "npm-script-lens": 143,
    "pal-schema-collect": 3,
-   "pmpt-eject": 2,
+   "pmpt-eject": 4,
    "pnpm11-ci-guard": 5,
-   "runner-drift": 271,
+   "runner-drift": 291,
    "studio-os": 6,
-   "ts7-compat-guard": 125,
-   "wow-secret-lint": 56
+   "ts7-compat-guard": 131,
+   "wow-secret-lint": 62
   },
   "packages": 18,
   "top": "@booyaka/mcp-vet",
-  "top_n": 351,
-  "weekly": 1470
+  "top_n": 365,
+  "weekly": 1764
  },
  "radar": {
-  "affected": 907,
+  "affected": 834,
   "buckets": [
    [
     "2026.10",
@@ -57,7 +57,7 @@
    ],
    [
     "2026.11",
-    97
+    16
    ],
    [
     "2027.5",
@@ -65,7 +65,7 @@
    ],
    [
     "2027.6",
-    47
+    46
    ],
    [
     "2027.7",
@@ -73,7 +73,7 @@
    ],
    [
     "2027.8",
-    680
+    689
    ],
    [
     "2027.9",
@@ -84,14 +84,14 @@
     1
    ]
   ],
-  "clean": 2330,
+  "clean": 2400,
   "core": "2026.10",
-  "findings": 2378,
-  "generated": "2026-09-11T03:32:37Z",
+  "findings": 2191,
+  "generated": "2026-09-12T03:30:44Z",
   "next_count": 10,
   "next_release": "2026.10",
-  "rules": 123,
-  "scanned": 4010
+  "rules": 124,
+  "scanned": 4009
  },
  "upstream": {
   "merged": 47,
