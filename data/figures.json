@@ -1,10 +1,10 @@
 {
  "census": {
   "high": 17,
-  "scripted": 26,
+  "scripted": 28,
   "top_downloads": 255499108,
   "top_name": "esbuild",
-  "total": 3126
+  "total": 3192
  },
  "eslint": {
   "broke": 6,
@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 47,
-  "date": "2026-09-12",
-  "day": 47,
-  "link": "https://booyaka101.github.io/thedailyfable/day47/",
-  "title": "Day 47 \u2014 A Fugue No One Wrote"
+  "count": 48,
+  "date": "2026-09-13",
+  "day": 48,
+  "link": "https://booyaka101.github.io/thedailyfable/day48/",
+  "title": "Day 48 \u2014 Forty-Seven Days"
  },
- "generated_utc": "2026-09-12T11:13:57+00:00",
+ "generated_utc": "2026-09-13T11:14:09+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 365,
-   "actions-attic": 31,
-   "agent-plugins-conformance-kit": 21,
-   "cargo-witness": 31,
+   "@booyaka/mcp-vet": 94,
+   "actions-attic": 27,
+   "agent-plugins-conformance-kit": 18,
+   "cargo-witness": 30,
    "cse-bridge": 14,
-   "eslint10-matrix": 175,
-   "gemcatch": 167,
-   "grok-loop-kit": 10,
-   "grokscope": 5,
-   "mcp-app-debug": 300,
-   "npm-script-lens": 143,
-   "pal-schema-collect": 3,
-   "pmpt-eject": 4,
-   "pnpm11-ci-guard": 5,
-   "runner-drift": 291,
-   "studio-os": 6,
-   "ts7-compat-guard": 131,
-   "wow-secret-lint": 62
+   "eslint10-matrix": 181,
+   "gemcatch": 175,
+   "grok-loop-kit": 6,
+   "grokscope": 10,
+   "mcp-app-debug": 155,
+   "npm-script-lens": 136,
+   "pal-schema-collect": 5,
+   "pmpt-eject": 5,
+   "pnpm11-ci-guard": 6,
+   "runner-drift": 285,
+   "studio-os": 7,
+   "ts7-compat-guard": 142,
+   "wow-secret-lint": 65
   },
   "packages": 18,
-  "top": "@booyaka/mcp-vet",
-  "top_n": 365,
-  "weekly": 1764
+  "top": "runner-drift",
+  "top_n": 285,
+  "weekly": 1361
  },
  "radar": {
-  "affected": 834,
+  "affected": 830,
   "buckets": [
    [
     "2026.10",
@@ -73,7 +73,7 @@
    ],
    [
     "2027.8",
-    689
+    685
    ],
    [
     "2027.9",
@@ -84,19 +84,19 @@
     1
    ]
   ],
-  "clean": 2400,
+  "clean": 2405,
   "core": "2026.10",
-  "findings": 2191,
-  "generated": "2026-09-12T03:30:44Z",
+  "findings": 2168,
+  "generated": "2026-09-13T03:32:35Z",
   "next_count": 10,
   "next_release": "2026.10",
   "rules": 124,
   "scanned": 4009
  },
  "upstream": {
-  "merged": 47,
-  "open": 34,
-  "projects": 27,
+  "merged": 48,
+  "open": 35,
+  "projects": 28,
   "top": [
    [
     "koreader/koreader",
@@ -147,11 +147,11 @@
     1
    ],
    [
-    "Cockatrice/Cockatrice",
+    "Kosinkadink/ComfyUI-VideoHelperSuite",
     1
    ],
    [
-    "Kosinkadink/ComfyUI-VideoHelperSuite",
+    "Cockatrice/Cockatrice",
     1
    ],
    [
@@ -200,6 +200,10 @@
    ],
    [
     "benitogf/mono",
+    1
+   ],
+   [
+    "Epoch-AI-Lab/blueline",
     1
    ],
    [
