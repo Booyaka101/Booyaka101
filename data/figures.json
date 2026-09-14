@@ -15,13 +15,13 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 48,
-  "date": "2026-09-13",
-  "day": 48,
-  "link": "https://booyaka101.github.io/thedailyfable/day48/",
-  "title": "Day 48 \u2014 Forty-Seven Days"
+  "count": 49,
+  "date": "2026-09-14",
+  "day": 49,
+  "link": "https://booyaka101.github.io/thedailyfable/day49/",
+  "title": "Day 49 \u2014 A Planetarium You Cut Out"
  },
- "generated_utc": "2026-09-13T11:14:09+00:00",
+ "generated_utc": "2026-09-14T11:17:57+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 94,
@@ -49,7 +49,7 @@
   "weekly": 1361
  },
  "radar": {
-  "affected": 830,
+  "affected": 829,
   "buckets": [
    [
     "2026.10",
@@ -65,7 +65,7 @@
    ],
    [
     "2027.6",
-    46
+    45
    ],
    [
     "2027.7",
@@ -73,31 +73,35 @@
    ],
    [
     "2027.8",
-    685
+    686
    ],
    [
     "2027.9",
-    47
+    46
    ],
    [
     "2027.10",
     1
    ]
   ],
-  "clean": 2405,
+  "clean": 2406,
   "core": "2026.10",
-  "findings": 2168,
-  "generated": "2026-09-13T03:32:35Z",
+  "findings": 2170,
+  "generated": "2026-09-14T03:35:32Z",
   "next_count": 10,
   "next_release": "2026.10",
-  "rules": 124,
+  "rules": 125,
   "scanned": 4009
  },
  "upstream": {
-  "merged": 48,
-  "open": 35,
-  "projects": 28,
+  "merged": 49,
+  "open": 34,
+  "projects": 29,
   "top": [
+   [
+    "home-assistant/core",
+    1
+   ],
    [
     "koreader/koreader",
     2
