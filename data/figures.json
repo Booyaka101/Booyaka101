@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 52,
-  "date": "2026-09-17",
-  "day": 52,
-  "link": "https://booyaka101.github.io/thedailyfable/day52/",
-  "title": "Day 52 \u2014 Fair, on this table"
+  "count": 53,
+  "date": "2026-09-18",
+  "day": 53,
+  "link": "https://booyaka101.github.io/thedailyfable/day53/",
+  "title": "Day 53 \u2014 Which knots hold"
  },
- "generated_utc": "2026-09-17T11:17:41+00:00",
+ "generated_utc": "2026-09-18T11:16:31+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 94,
-   "actions-attic": 27,
-   "agent-plugins-conformance-kit": 18,
-   "cargo-witness": 30,
-   "cse-bridge": 14,
-   "eslint10-matrix": 181,
-   "gemcatch": 175,
-   "grok-loop-kit": 6,
-   "grokscope": 10,
-   "mcp-app-debug": 155,
-   "npm-script-lens": 136,
-   "pal-schema-collect": 5,
+   "@booyaka/mcp-vet": 91,
+   "actions-attic": 221,
+   "agent-plugins-conformance-kit": 27,
+   "cargo-witness": 199,
+   "cse-bridge": 182,
+   "eslint10-matrix": 349,
+   "gemcatch": 43,
+   "grok-loop-kit": 17,
+   "grokscope": 54,
+   "mcp-app-debug": 305,
+   "npm-script-lens": 233,
+   "pal-schema-collect": 11,
    "pmpt-eject": 5,
-   "pnpm11-ci-guard": 6,
-   "runner-drift": 285,
-   "studio-os": 7,
-   "ts7-compat-guard": 142,
-   "wow-secret-lint": 65
+   "pnpm11-ci-guard": 16,
+   "runner-drift": 287,
+   "studio-os": 5,
+   "ts7-compat-guard": 358,
+   "wow-secret-lint": 212
   },
   "packages": 18,
-  "top": "runner-drift",
-  "top_n": 285,
-  "weekly": 1361
+  "top": "ts7-compat-guard",
+  "top_n": 358,
+  "weekly": 2615
  },
  "radar": {
-  "affected": 826,
+  "affected": 824,
   "buckets": [
    [
     "2026.10",
@@ -69,7 +69,7 @@
    ],
    [
     "2027.7",
-    15
+    14
    ],
    [
     "2027.8",
@@ -81,16 +81,16 @@
    ],
    [
     "2027.10",
-    94
+    93
    ]
   ],
-  "clean": 3167,
+  "clean": 3169,
   "core": "2026.10",
-  "findings": 2156,
-  "generated": "2026-09-17T03:33:14Z",
+  "findings": 2145,
+  "generated": "2026-09-18T03:48:53Z",
   "next_count": 10,
   "next_release": "2026.10",
-  "rules": 124,
+  "rules": 131,
   "scanned": 4008
  },
  "upstream": {
