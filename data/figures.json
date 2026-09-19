@@ -11,17 +11,17 @@
   "clean": 46,
   "reach": 569394261,
   "total": 54,
-  "v10": "10.10.0",
+  "v10": "10.11.0",
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 53,
-  "date": "2026-09-18",
-  "day": 53,
-  "link": "https://booyaka101.github.io/thedailyfable/day53/",
-  "title": "Day 53 \u2014 Which knots hold"
+  "count": 54,
+  "date": "2026-09-19",
+  "day": 54,
+  "link": "https://booyaka101.github.io/thedailyfable/day54/",
+  "title": "Day 54 \u2014 What the mould would have built"
  },
- "generated_utc": "2026-09-18T11:16:31+00:00",
+ "generated_utc": "2026-09-19T11:14:35+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 91,
@@ -49,7 +49,7 @@
   "weekly": 2615
  },
  "radar": {
-  "affected": 824,
+  "affected": 823,
   "buckets": [
    [
     "2026.10",
@@ -69,11 +69,11 @@
    ],
    [
     "2027.7",
-    14
+    13
    ],
    [
     "2027.8",
-    566
+    565
    ],
    [
     "2027.9",
@@ -81,17 +81,17 @@
    ],
    [
     "2027.10",
-    93
+    94
    ]
   ],
-  "clean": 3169,
+  "clean": 3170,
   "core": "2026.10",
-  "findings": 2145,
-  "generated": "2026-09-18T03:48:53Z",
+  "findings": 2144,
+  "generated": "2026-09-19T03:47:18Z",
   "next_count": 10,
   "next_release": "2026.10",
   "rules": 131,
-  "scanned": 4008
+  "scanned": 4007
  },
  "upstream": {
   "merged": 49,

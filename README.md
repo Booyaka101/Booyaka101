@@ -8,7 +8,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-09-18.</sub>
+<sub>Live figures, rebuilt 2026-09-19.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **4,008** HACS integrations against core 2026.10 and found **2,145** deprecation hits across **824** repos. **3,169** are clean. Next up: **10** break in Home Assistant 2026.10.
+> Today's crawl checked **4,007** HACS integrations against core 2026.10 and found **2,144** deprecation hits across **823** repos. **3,170** are clean. Next up: **10** break in Home Assistant 2026.10.
 <!-- /auto:radar -->
 
 <picture>
@@ -33,7 +33,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[eslint10-matrix](https://github.com/Booyaka101/eslint10-matrix)**. Can you upgrade to ESLint 10 yet? A nightly matrix of plugins actually executed against real ESLint 9 and 10 installs, not read off a peer range, plus a CLI that answers it for your own repo. [Live matrix](https://booyaka101.github.io/eslint10-matrix/).
 
 <!-- auto:eslint -->
-> Last night's matrix ran **54** plugins, 569M weekly installs between them, against ESLint 10.10.0: **46** clean, **8** not. **6** of those worked on 9.39.5.
+> Last night's matrix ran **54** plugins, 569M weekly installs between them, against ESLint 10.11.0: **46** clean, **8** not. **6** of those worked on 9.39.5.
 <!-- /auto:eslint -->
 
 **[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens.
@@ -77,7 +77,7 @@ When I depend on something and hit a real bug, I send the fix back. **49 merged 
 **[The Daily Fable](https://booyaka101.github.io/thedailyfable/)**. One brand-new generative piece every day, made end to end by an AI. So far: typefaces, a fugue under strict counterpoint, a board game, a neural net learning English from one book, and field recordings of a language family that never existed.
 
 <!-- auto:fable -->
-> Latest: [Day 53 — Which knots hold](https://booyaka101.github.io/thedailyfable/day53/) · 2026-09-18 · 53 pieces so far.
+> Latest: [Day 54 — What the mould would have built](https://booyaka101.github.io/thedailyfable/day54/) · 2026-09-19 · 54 pieces so far.
 <!-- /auto:fable -->
 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
