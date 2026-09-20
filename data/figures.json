@@ -4,7 +4,7 @@
   "scripted": 28,
   "top_downloads": 255499108,
   "top_name": "esbuild",
-  "total": 3192
+  "total": 3238
  },
  "eslint": {
   "broke": 6,
@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 54,
-  "date": "2026-09-19",
-  "day": 54,
-  "link": "https://booyaka101.github.io/thedailyfable/day54/",
-  "title": "Day 54 \u2014 What the mould would have built"
+  "count": 55,
+  "date": "2026-09-20",
+  "day": 55,
+  "link": "https://booyaka101.github.io/thedailyfable/day55/",
+  "title": "Day 55 \u2014 What the rain leaves"
  },
- "generated_utc": "2026-09-19T11:14:35+00:00",
+ "generated_utc": "2026-09-20T11:14:38+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 91,
-   "actions-attic": 221,
+   "@booyaka/mcp-vet": 31,
+   "actions-attic": 212,
    "agent-plugins-conformance-kit": 27,
-   "cargo-witness": 199,
-   "cse-bridge": 182,
-   "eslint10-matrix": 349,
-   "gemcatch": 43,
-   "grok-loop-kit": 17,
-   "grokscope": 54,
-   "mcp-app-debug": 305,
-   "npm-script-lens": 233,
+   "cargo-witness": 186,
+   "cse-bridge": 173,
+   "eslint10-matrix": 337,
+   "gemcatch": 19,
+   "grok-loop-kit": 30,
+   "grokscope": 58,
+   "mcp-app-debug": 589,
+   "npm-script-lens": 161,
    "pal-schema-collect": 11,
-   "pmpt-eject": 5,
-   "pnpm11-ci-guard": 16,
-   "runner-drift": 287,
-   "studio-os": 5,
-   "ts7-compat-guard": 358,
-   "wow-secret-lint": 212
+   "pmpt-eject": 3,
+   "pnpm11-ci-guard": 13,
+   "runner-drift": 255,
+   "studio-os": 3,
+   "ts7-compat-guard": 284,
+   "wow-secret-lint": 189
   },
   "packages": 18,
-  "top": "ts7-compat-guard",
-  "top_n": 358,
-  "weekly": 2615
+  "top": "mcp-app-debug",
+  "top_n": 589,
+  "weekly": 2581
  },
  "radar": {
-  "affected": 823,
+  "affected": 820,
   "buckets": [
    [
     "2026.10",
@@ -73,25 +73,25 @@
    ],
    [
     "2027.8",
-    565
+    563
    ],
    [
     "2027.9",
-    70
+    69
    ],
    [
     "2027.10",
     94
    ]
   ],
-  "clean": 3170,
+  "clean": 3173,
   "core": "2026.10",
-  "findings": 2144,
-  "generated": "2026-09-19T03:47:18Z",
+  "findings": 2126,
+  "generated": "2026-09-20T03:33:11Z",
   "next_count": 10,
   "next_release": "2026.10",
-  "rules": 131,
-  "scanned": 4007
+  "rules": 134,
+  "scanned": 4006
  },
  "upstream": {
   "merged": 49,
