@@ -74,12 +74,27 @@ for (const repo of names) {
     continue;
   }
 
-  const { root } = await cdp.send("DOM.getDocument", { depth: -1 });
-  const { nodeId } = await cdp.send("DOM.querySelector", {
-    nodeId: root.nodeId,
-    selector: "#repo-image-file-input",
-  });
-  await cdp.send("DOM.setFileInputFiles", { nodeId, files: [file] });
+  // The settings page keeps re-rendering after load, so a node id resolved a
+  // moment ago is often already detached. Re-resolve it until the file sticks.
+  let attached = false;
+  for (let i = 0; i < 6 && !attached; i++) {
+    try {
+      const { root } = await cdp.send("DOM.getDocument", { depth: 0 });
+      const { nodeId } = await cdp.send("DOM.querySelector", {
+        nodeId: root.nodeId,
+        selector: "#repo-image-file-input",
+      });
+      if (!nodeId) throw new Error("no upload input");
+      await cdp.send("DOM.setFileInputFiles", { nodeId, files: [file] });
+      attached = true;
+    } catch {
+      await sleep(1000);
+    }
+  }
+  if (!attached) {
+    results.push([repo, "could not attach the file to the upload input"]);
+    continue;
+  }
 
   // The widget uploads to S3 and submits the form on its own; poll the served
   // og:image rather than guessing how long that takes.
