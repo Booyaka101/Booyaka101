@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 55,
-  "date": "2026-09-20",
-  "day": 55,
-  "link": "https://booyaka101.github.io/thedailyfable/day55/",
-  "title": "Day 55 \u2014 What the rain leaves"
+  "count": 56,
+  "date": "2026-09-21",
+  "day": 56,
+  "link": "https://booyaka101.github.io/thedailyfable/day56/",
+  "title": "Day 56 \u2014 One uncut square"
  },
- "generated_utc": "2026-09-20T11:14:38+00:00",
+ "generated_utc": "2026-09-21T11:18:18+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 31,
-   "actions-attic": 212,
-   "agent-plugins-conformance-kit": 27,
-   "cargo-witness": 186,
-   "cse-bridge": 173,
-   "eslint10-matrix": 337,
-   "gemcatch": 19,
-   "grok-loop-kit": 30,
-   "grokscope": 58,
-   "mcp-app-debug": 589,
-   "npm-script-lens": 161,
-   "pal-schema-collect": 11,
-   "pmpt-eject": 3,
-   "pnpm11-ci-guard": 13,
-   "runner-drift": 255,
-   "studio-os": 3,
-   "ts7-compat-guard": 284,
-   "wow-secret-lint": 189
+   "@booyaka/mcp-vet": 48,
+   "actions-attic": 42,
+   "agent-plugins-conformance-kit": 28,
+   "cargo-witness": 25,
+   "cse-bridge": 25,
+   "eslint10-matrix": 335,
+   "gemcatch": 5,
+   "grok-loop-kit": 35,
+   "grokscope": 54,
+   "mcp-app-debug": 537,
+   "npm-script-lens": 102,
+   "pal-schema-collect": 6,
+   "pmpt-eject": 2,
+   "pnpm11-ci-guard": 9,
+   "runner-drift": 313,
+   "studio-os": 1,
+   "ts7-compat-guard": 196,
+   "wow-secret-lint": 32
   },
   "packages": 18,
   "top": "mcp-app-debug",
-  "top_n": 589,
-  "weekly": 2581
+  "top_n": 537,
+  "weekly": 1795
  },
  "radar": {
-  "affected": 820,
+  "affected": 817,
   "buckets": [
    [
     "2026.10",
@@ -65,7 +65,7 @@
    ],
    [
     "2027.6",
-    45
+    42
    ],
    [
     "2027.7",
@@ -73,7 +73,7 @@
    ],
    [
     "2027.8",
-    563
+    564
    ],
    [
     "2027.9",
@@ -81,13 +81,13 @@
    ],
    [
     "2027.10",
-    94
+    93
    ]
   ],
-  "clean": 3173,
+  "clean": 3176,
   "core": "2026.10",
-  "findings": 2126,
-  "generated": "2026-09-20T03:33:11Z",
+  "findings": 2119,
+  "generated": "2026-09-21T05:14:53Z",
   "next_count": 10,
   "next_release": "2026.10",
   "rules": 134,
@@ -95,7 +95,7 @@
  },
  "upstream": {
   "merged": 49,
-  "open": 34,
+  "open": 37,
   "projects": 29,
   "top": [
    [
