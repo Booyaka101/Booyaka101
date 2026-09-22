@@ -36,7 +36,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 > Last night's matrix ran **54** plugins, 569M weekly installs between them, against ESLint 10.11.0: **46** clean, **8** not. **6** of those worked on 9.39.5.
 <!-- /auto:eslint -->
 
-**[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens.
+**[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens. [Live dashboard](https://booyaka101.github.io/npm-install-census/).
 
 <!-- auto:census -->
 > Today's census audited **3,238** packages from the registry: **28** run an install script, **17** score HIGH. Biggest is `esbuild` at 255.5M installs a week.
