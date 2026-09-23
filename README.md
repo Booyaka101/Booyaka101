@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-09-22.</sub>
+<sub>Live figures, rebuilt 2026-09-23.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **1,795** installs a week between **18** of them, most of it `mcp-app-debug` at 537.
+> The packages I publish are pulling **2,018** installs a week between **18** of them, most of it `mcp-app-debug` at 719.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -77,7 +77,7 @@ When I depend on something and hit a real bug, I send the fix back. **49 merged 
 **[The Daily Fable](https://booyaka101.github.io/thedailyfable/)**. One brand-new generative piece every day, made end to end by an AI. So far: typefaces, a fugue under strict counterpoint, a board game, a neural net learning English from one book, and field recordings of a language family that never existed.
 
 <!-- auto:fable -->
-> Latest: [Day 57 — A lens that never existed](https://booyaka101.github.io/thedailyfable/day57/) · 2026-09-22 · 57 pieces so far.
+> Latest: [Day 58 — A choir that has to breathe](https://booyaka101.github.io/thedailyfable/day58/) · 2026-09-23 · 58 pieces so far.
 <!-- /auto:fable -->
 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
