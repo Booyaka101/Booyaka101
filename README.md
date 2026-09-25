@@ -8,7 +8,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-09-24.</sub>
+<sub>Live figures, rebuilt 2026-09-25.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **4,006** HACS integrations against core 2026.10 and found **2,109** deprecation hits across **815** repos. **3,178** are clean. Next up: **11** break in Home Assistant 2026.10.
+> Today's crawl checked **4,006** HACS integrations against core 2026.10 and found **2,110** deprecation hits across **815** repos. **3,179** are clean. Next up: **11** break in Home Assistant 2026.10.
 <!-- /auto:radar -->
 
 <picture>
@@ -77,7 +77,7 @@ When I depend on something and hit a real bug, I send the fix back. **49 merged 
 **[The Daily Fable](https://booyaka101.github.io/thedailyfable/)**. One brand-new generative piece every day, made end to end by an AI. So far: typefaces, a fugue under strict counterpoint, a board game, a neural net learning English from one book, and field recordings of a language family that never existed.
 
 <!-- auto:fable -->
-> Latest: [Day 59 — The census](https://booyaka101.github.io/thedailyfable/day59/) · 2026-09-24 · 59 pieces so far.
+> Latest: [Day 60 — The weather forecast for a planet that isn't Earth](https://booyaka101.github.io/thedailyfable/day60/) · 2026-09-25 · 60 pieces so far.
 <!-- /auto:fable -->
 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
