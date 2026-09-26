@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 60,
-  "date": "2026-09-25",
-  "day": 60,
-  "link": "https://booyaka101.github.io/thedailyfable/day60/",
-  "title": "Day 60 \u2014 The weather forecast for a planet that isn't Earth"
+  "count": 61,
+  "date": "2026-09-26",
+  "day": 61,
+  "link": "https://booyaka101.github.io/thedailyfable/day61/",
+  "title": "Day 61 \u2014 FOLD. A protein finds its shape"
  },
- "generated_utc": "2026-09-25T11:17:31+00:00",
+ "generated_utc": "2026-09-26T11:15:02+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 34,
-   "actions-attic": 29,
-   "agent-plugins-conformance-kit": 32,
+   "@booyaka/mcp-vet": 42,
+   "actions-attic": 21,
+   "agent-plugins-conformance-kit": 40,
    "cargo-witness": 21,
-   "cse-bridge": 19,
+   "cse-bridge": 171,
    "eslint10-matrix": 188,
-   "gemcatch": 2,
-   "grok-loop-kit": 36,
-   "grokscope": 53,
-   "mcp-app-debug": 719,
-   "npm-script-lens": 84,
-   "pal-schema-collect": 3,
-   "pmpt-eject": 3,
-   "pnpm11-ci-guard": 137,
-   "runner-drift": 323,
-   "studio-os": 135,
-   "ts7-compat-guard": 165,
-   "wow-secret-lint": 35
+   "gemcatch": 162,
+   "grok-loop-kit": 51,
+   "grokscope": 61,
+   "mcp-app-debug": 750,
+   "npm-script-lens": 414,
+   "pal-schema-collect": 9,
+   "pmpt-eject": 5,
+   "pnpm11-ci-guard": 170,
+   "runner-drift": 356,
+   "studio-os": 158,
+   "ts7-compat-guard": 234,
+   "wow-secret-lint": 32
   },
   "packages": 18,
   "top": "mcp-app-debug",
-  "top_n": 719,
-  "weekly": 2018
+  "top_n": 750,
+  "weekly": 2885
  },
  "radar": {
-  "affected": 815,
+  "affected": 814,
   "buckets": [
    [
     "2026.10",
@@ -73,7 +73,7 @@
    ],
    [
     "2027.8",
-    561
+    560
    ],
    [
     "2027.9",
@@ -84,10 +84,10 @@
     93
    ]
   ],
-  "clean": 3179,
+  "clean": 3181,
   "core": "2026.10",
-  "findings": 2110,
-  "generated": "2026-09-25T03:32:12Z",
+  "findings": 2106,
+  "generated": "2026-09-26T03:48:14Z",
   "next_count": 11,
   "next_release": "2026.10",
   "rules": 134,
