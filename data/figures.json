@@ -4,7 +4,7 @@
   "scripted": 28,
   "top_downloads": 0,
   "top_name": null,
-  "total": 3238
+  "total": 3293
  },
  "eslint": {
   "broke": 6,
@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 61,
-  "date": "2026-09-26",
-  "day": 61,
-  "link": "https://booyaka101.github.io/thedailyfable/day61/",
-  "title": "Day 61 \u2014 FOLD. A protein finds its shape"
+  "count": 62,
+  "date": "2026-09-27",
+  "day": 62,
+  "link": "https://booyaka101.github.io/thedailyfable/day62/",
+  "title": "Day 62 \u2014 RAIN, from first principles"
  },
- "generated_utc": "2026-09-26T11:15:02+00:00",
+ "generated_utc": "2026-09-27T11:15:37+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 42,
-   "actions-attic": 21,
-   "agent-plugins-conformance-kit": 40,
-   "cargo-witness": 21,
-   "cse-bridge": 171,
-   "eslint10-matrix": 188,
-   "gemcatch": 162,
-   "grok-loop-kit": 51,
-   "grokscope": 61,
-   "mcp-app-debug": 750,
-   "npm-script-lens": 414,
-   "pal-schema-collect": 9,
-   "pmpt-eject": 5,
-   "pnpm11-ci-guard": 170,
-   "runner-drift": 356,
-   "studio-os": 158,
-   "ts7-compat-guard": 234,
-   "wow-secret-lint": 32
+   "@booyaka/mcp-vet": 69,
+   "actions-attic": 14,
+   "agent-plugins-conformance-kit": 117,
+   "cargo-witness": 19,
+   "cse-bridge": 177,
+   "eslint10-matrix": 181,
+   "gemcatch": 182,
+   "grok-loop-kit": 65,
+   "grokscope": 223,
+   "mcp-app-debug": 546,
+   "npm-script-lens": 489,
+   "pal-schema-collect": 10,
+   "pmpt-eject": 7,
+   "pnpm11-ci-guard": 334,
+   "runner-drift": 423,
+   "studio-os": 203,
+   "ts7-compat-guard": 337,
+   "wow-secret-lint": 195
   },
   "packages": 18,
   "top": "mcp-app-debug",
-  "top_n": 750,
-  "weekly": 2885
+  "top_n": 546,
+  "weekly": 3591
  },
  "radar": {
-  "affected": 814,
+  "affected": 813,
   "buckets": [
    [
     "2026.10",
@@ -77,17 +77,17 @@
    ],
    [
     "2027.9",
-    69
+    68
    ],
    [
     "2027.10",
     93
    ]
   ],
-  "clean": 3181,
+  "clean": 3183,
   "core": "2026.10",
-  "findings": 2106,
-  "generated": "2026-09-26T03:48:14Z",
+  "findings": 2105,
+  "generated": "2026-09-27T03:52:32Z",
   "next_count": 11,
   "next_release": "2026.10",
   "rules": 134,

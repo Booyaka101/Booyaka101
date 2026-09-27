@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-09-26.</sub>
+<sub>Live figures, rebuilt 2026-09-27.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **2,885** installs a week between **18** of them, most of it `mcp-app-debug` at 750.
+> The packages I publish are pulling **3,591** installs a week between **18** of them, most of it `mcp-app-debug` at 546.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **4,006** HACS integrations against core 2026.10 and found **2,106** deprecation hits across **814** repos. **3,181** are clean. Next up: **11** break in Home Assistant 2026.10.
+> Today's crawl checked **4,006** HACS integrations against core 2026.10 and found **2,105** deprecation hits across **813** repos. **3,183** are clean. Next up: **11** break in Home Assistant 2026.10.
 <!-- /auto:radar -->
 
 <picture>
@@ -39,7 +39,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens. [Live dashboard](https://booyaka101.github.io/npm-install-census/).
 
 <!-- auto:census -->
-> Today's census audited **3,238** packages from the registry: **28** run an install script, **18** score HIGH.
+> Today's census audited **3,293** packages from the registry: **28** run an install script, **18** score HIGH.
 <!-- /auto:census -->
 
 ### Tools
@@ -77,7 +77,7 @@ When I depend on something and hit a real bug, I send the fix back. **49 merged 
 **[The Daily Fable](https://booyaka101.github.io/thedailyfable/)**. One brand-new generative piece every day, made end to end by an AI. So far: typefaces, a fugue under strict counterpoint, a board game, a neural net learning English from one book, and field recordings of a language family that never existed.
 
 <!-- auto:fable -->
-> Latest: [Day 61 — FOLD. A protein finds its shape](https://booyaka101.github.io/thedailyfable/day61/) · 2026-09-26 · 61 pieces so far.
+> Latest: [Day 62 — RAIN, from first principles](https://booyaka101.github.io/thedailyfable/day62/) · 2026-09-27 · 62 pieces so far.
 <!-- /auto:fable -->
 
 **[comfyui-vlm-gates](https://github.com/Booyaka101/comfyui-vlm-gates)**. Multi-VLM consensus gates and quality scoring for AI image pipelines. Catches bad renders before they ship.
