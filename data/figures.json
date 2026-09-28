@@ -15,41 +15,41 @@
   "v9": "9.39.5"
  },
  "fable": {
-  "count": 62,
-  "date": "2026-09-27",
-  "day": 62,
-  "link": "https://booyaka101.github.io/thedailyfable/day62/",
-  "title": "Day 62 \u2014 RAIN, from first principles"
+  "count": 63,
+  "date": "2026-09-28",
+  "day": 63,
+  "link": "https://booyaka101.github.io/thedailyfable/day63/",
+  "title": "Day 63 \u2014 A hand that learned to write"
  },
- "generated_utc": "2026-09-27T11:15:37+00:00",
+ "generated_utc": "2026-09-28T11:18:43+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 69,
-   "actions-attic": 14,
+   "@booyaka/mcp-vet": 58,
+   "actions-attic": 30,
    "agent-plugins-conformance-kit": 117,
-   "cargo-witness": 19,
-   "cse-bridge": 177,
-   "eslint10-matrix": 181,
-   "gemcatch": 182,
-   "grok-loop-kit": 65,
-   "grokscope": 223,
-   "mcp-app-debug": 546,
-   "npm-script-lens": 489,
+   "cargo-witness": 23,
+   "cse-bridge": 354,
+   "eslint10-matrix": 192,
+   "gemcatch": 187,
+   "grok-loop-kit": 69,
+   "grokscope": 228,
+   "mcp-app-debug": 457,
+   "npm-script-lens": 588,
    "pal-schema-collect": 10,
-   "pmpt-eject": 7,
-   "pnpm11-ci-guard": 334,
-   "runner-drift": 423,
-   "studio-os": 203,
-   "ts7-compat-guard": 337,
-   "wow-secret-lint": 195
+   "pmpt-eject": 8,
+   "pnpm11-ci-guard": 332,
+   "runner-drift": 201,
+   "studio-os": 697,
+   "ts7-compat-guard": 554,
+   "wow-secret-lint": 208
   },
   "packages": 18,
-  "top": "mcp-app-debug",
-  "top_n": 546,
-  "weekly": 3591
+  "top": "studio-os",
+  "top_n": 697,
+  "weekly": 4313
  },
  "radar": {
-  "affected": 813,
+  "affected": 810,
   "buckets": [
    [
     "2026.10",
@@ -57,7 +57,7 @@
    ],
    [
     "2026.11",
-    16
+    15
    ],
    [
     "2027.5",
@@ -73,7 +73,7 @@
    ],
    [
     "2027.8",
-    560
+    558
    ],
    [
     "2027.9",
@@ -84,13 +84,13 @@
     93
    ]
   ],
-  "clean": 3183,
+  "clean": 3185,
   "core": "2026.10",
-  "findings": 2105,
-  "generated": "2026-09-27T03:52:32Z",
+  "findings": 2095,
+  "generated": "2026-09-28T03:39:24Z",
   "next_count": 11,
   "next_release": "2026.10",
-  "rules": 134,
+  "rules": 133,
   "scanned": 4006
  },
  "upstream": {
