@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-10-01.</sub>
+<sub>Live figures, rebuilt 2026-10-02.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **4,114** installs a week between **18** of them, most of it `npm-script-lens` at 634.
+> The packages I publish are pulling **3,805** installs a week between **18** of them, most of it `ts7-compat-guard` at 673.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
