@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-10-03.</sub>
+<sub>Live figures, rebuilt 2026-10-04.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **3,799** installs a week between **18** of them, most of it `ts7-compat-guard` at 695.
+> The packages I publish are pulling **3,210** installs a week between **18** of them, most of it `ts7-compat-guard` at 664.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **4,005** HACS integrations against core 2026.11 and found **2,034** deprecation hits across **798** repos. **3,201** are clean. Next up: **11** break in Home Assistant 2026.10.
+> Today's crawl checked **4,005** HACS integrations against core 2026.11 and found **1,991** deprecation hits across **794** repos. **3,205** are clean. Next up: **11** break in Home Assistant 2026.10.
 <!-- /auto:radar -->
 
 <picture>
@@ -39,7 +39,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens. [Live dashboard](https://booyaka101.github.io/npm-install-census/).
 
 <!-- auto:census -->
-> Today's census audited **3,293** packages from the registry: **28** run an install script, **18** score HIGH.
+> Today's census audited **3,357** packages from the registry: **30** run an install script, **20** score HIGH.
 <!-- /auto:census -->
 
 ### Tools

@@ -1,10 +1,10 @@
 {
  "census": {
-  "high": 18,
-  "scripted": 28,
+  "high": 20,
+  "scripted": 30,
   "top_downloads": 0,
   "top_name": null,
-  "total": 3293
+  "total": 3357
  },
  "eslint": {
   "broke": 6,
@@ -14,42 +14,36 @@
   "v10": "10.12.0",
   "v9": "9.39.5"
  },
- "fable": {
-  "count": 65,
-  "date": "2026-09-30",
-  "day": 65,
-  "link": "https://booyaka101.github.io/thedailyfable/day65/",
-  "title": "Day 65 \u2014 Enough"
- },
- "generated_utc": "2026-10-03T11:48:30+00:00",
+ "fable": null,
+ "generated_utc": "2026-10-04T12:57:36+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 68,
-   "actions-attic": 199,
-   "agent-plugins-conformance-kit": 299,
+   "@booyaka/mcp-vet": 46,
+   "actions-attic": 206,
+   "agent-plugins-conformance-kit": 289,
    "cargo-witness": 20,
-   "cse-bridge": 237,
-   "eslint10-matrix": 195,
-   "gemcatch": 46,
-   "grok-loop-kit": 75,
-   "grokscope": 241,
-   "mcp-app-debug": 248,
-   "npm-script-lens": 302,
-   "pal-schema-collect": 2,
-   "pmpt-eject": 6,
-   "pnpm11-ci-guard": 29,
-   "runner-drift": 118,
-   "studio-os": 587,
-   "ts7-compat-guard": 695,
-   "wow-secret-lint": 432
+   "cse-bridge": 233,
+   "eslint10-matrix": 47,
+   "gemcatch": 37,
+   "grok-loop-kit": 73,
+   "grokscope": 97,
+   "mcp-app-debug": 245,
+   "npm-script-lens": 293,
+   "pal-schema-collect": 5,
+   "pmpt-eject": 3,
+   "pnpm11-ci-guard": 14,
+   "runner-drift": 104,
+   "studio-os": 562,
+   "ts7-compat-guard": 664,
+   "wow-secret-lint": 272
   },
   "packages": 18,
   "top": "ts7-compat-guard",
-  "top_n": 695,
-  "weekly": 3799
+  "top_n": 664,
+  "weekly": 3210
  },
  "radar": {
-  "affected": 798,
+  "affected": 794,
   "buckets": [
    [
     "2026.10",
@@ -73,21 +67,21 @@
    ],
    [
     "2027.8",
-    547
+    544
    ],
    [
     "2027.9",
-    65
+    64
    ],
    [
     "2027.10",
     97
    ]
   ],
-  "clean": 3201,
+  "clean": 3205,
   "core": "2026.11",
-  "findings": 2034,
-  "generated": "2026-10-03T04:31:27Z",
+  "findings": 1991,
+  "generated": "2026-10-04T04:53:43Z",
   "next_count": 11,
   "next_release": "2026.10",
   "rules": 131,
