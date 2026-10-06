@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-10-05.</sub>
+<sub>Live figures, rebuilt 2026-10-06.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **3,210** installs a week between **18** of them, most of it `ts7-compat-guard` at 664.
+> The packages I publish are pulling **2,346** installs a week between **18** of them, most of it `wow-secret-lint` at 442.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
