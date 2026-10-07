@@ -15,7 +15,7 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-06T11:17:43+00:00",
+ "generated_utc": "2026-10-07T11:17:29+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 41,
@@ -43,7 +43,7 @@
   "weekly": 2346
  },
  "radar": {
-  "affected": 796,
+  "affected": 792,
   "buckets": [
    [
     "2026.10",
@@ -71,30 +71,30 @@
    ],
    [
     "2027.8",
-    545
+    542
    ],
    [
     "2027.9",
-    64
+    63
    ],
    [
     "2027.10",
     97
    ]
   ],
-  "clean": 3203,
+  "clean": 3206,
   "core": "2026.11",
-  "findings": 1978,
-  "generated": "2026-10-06T03:35:12Z",
+  "findings": 1969,
+  "generated": "2026-10-07T03:39:48Z",
   "next_count": 11,
   "next_release": "2026.10",
   "rules": 131,
   "scanned": 4004
  },
  "upstream": {
-  "merged": 49,
+  "merged": 50,
   "open": 36,
-  "projects": 29,
+  "projects": 30,
   "top": [
    [
     "home-assistant/core",
@@ -194,6 +194,10 @@
    ],
    [
     "darkwyrm/base85",
+    1
+   ],
+   [
+    "gitbot-hq/Library",
     1
    ],
    [
