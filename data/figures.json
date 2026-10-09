@@ -15,32 +15,32 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-08T11:18:48+00:00",
+ "generated_utc": "2026-10-09T11:17:55+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 41,
-   "actions-attic": 196,
-   "agent-plugins-conformance-kit": 349,
-   "cargo-witness": 14,
-   "cse-bridge": 69,
-   "eslint10-matrix": 36,
-   "gemcatch": 34,
-   "grok-loop-kit": 64,
-   "grokscope": 93,
-   "mcp-app-debug": 232,
-   "npm-script-lens": 234,
-   "pal-schema-collect": 4,
-   "pmpt-eject": 5,
-   "pnpm11-ci-guard": 23,
-   "runner-drift": 64,
-   "studio-os": 81,
-   "ts7-compat-guard": 365,
-   "wow-secret-lint": 442
+   "@booyaka/mcp-vet": 16,
+   "actions-attic": 38,
+   "agent-plugins-conformance-kit": 320,
+   "cargo-witness": 3,
+   "cse-bridge": 31,
+   "eslint10-matrix": 18,
+   "gemcatch": 20,
+   "grok-loop-kit": 41,
+   "grokscope": 57,
+   "mcp-app-debug": 120,
+   "npm-script-lens": 138,
+   "pal-schema-collect": 7,
+   "pmpt-eject": 3,
+   "pnpm11-ci-guard": 18,
+   "runner-drift": 40,
+   "studio-os": 35,
+   "ts7-compat-guard": 108,
+   "wow-secret-lint": 573
   },
   "packages": 18,
   "top": "wow-secret-lint",
-  "top_n": 442,
-  "weekly": 2346
+  "top_n": 573,
+  "weekly": 1586
  },
  "radar": {
   "affected": 792,
@@ -193,11 +193,11 @@
     1
    ],
    [
-    "darkwyrm/base85",
+    "gitbot-hq/Library",
     1
    ],
    [
-    "gitbot-hq/Library",
+    "darkwyrm/base85",
     1
    ],
    [
