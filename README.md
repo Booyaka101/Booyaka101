@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-10-17.</sub>
+<sub>Live figures, rebuilt 2026-10-18.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **1,218** installs a week between **18** of them, most of it `wow-secret-lint` at 671.
+> The packages I publish are pulling **913** installs a week between **18** of them, most of it `wow-secret-lint` at 485.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **4,002** HACS integrations against core 2026.11 and found **1,924** deprecation hits across **787** repos. **3,212** are clean. Next up: **15** break in Home Assistant 2026.11.
+> Today's crawl checked **3,983** HACS integrations against core 2026.11 and found **1,907** deprecation hits across **785** repos. **3,213** are clean. Next up: **15** break in Home Assistant 2026.11.
 <!-- /auto:radar -->
 
 <picture>
@@ -39,7 +39,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens. [Live dashboard](https://booyaka101.github.io/npm-install-census/).
 
 <!-- auto:census -->
-> Today's census audited **3,389** packages from the registry: **30** run an install script, **20** score HIGH.
+> Today's census audited **3,414** packages from the registry: **31** run an install script, **21** score HIGH.
 <!-- /auto:census -->
 
 ### Tools
@@ -67,7 +67,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 ### Upstream
 
 <!-- auto:upstream -->
-When I depend on something and hit a real bug, I send the fix back. **50 merged PRs across 30 projects**, including core, koreader (2), nvim-lspconfig, gh-dash (2), ai-toolkit, sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust. 36 more open.
+When I depend on something and hit a real bug, I send the fix back. **50 merged PRs across 30 projects**, including core, koreader (2), nvim-lspconfig, gh-dash (2), ai-toolkit, sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust. 35 more open.
 <!-- /auto:upstream -->
 
 [Every PR I've opened](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) · [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions)

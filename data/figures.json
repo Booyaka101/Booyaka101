@@ -1,10 +1,10 @@
 {
  "census": {
-  "high": 20,
-  "scripted": 30,
+  "high": 21,
+  "scripted": 31,
   "top_downloads": 0,
   "top_name": null,
-  "total": 3389
+  "total": 3414
  },
  "eslint": {
   "broke": 6,
@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-17T11:14:48+00:00",
+ "generated_utc": "2026-10-18T11:14:03+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 14,
-   "actions-attic": 16,
-   "agent-plugins-conformance-kit": 43,
+   "@booyaka/mcp-vet": 8,
+   "actions-attic": 11,
+   "agent-plugins-conformance-kit": 18,
    "cargo-witness": 10,
-   "cse-bridge": 18,
-   "eslint10-matrix": 12,
-   "gemcatch": 20,
-   "grok-loop-kit": 12,
-   "grokscope": 25,
-   "mcp-app-debug": 100,
-   "npm-script-lens": 135,
-   "pal-schema-collect": 1,
-   "pmpt-eject": 1,
-   "pnpm11-ci-guard": 8,
-   "runner-drift": 27,
-   "studio-os": 22,
-   "ts7-compat-guard": 83,
-   "wow-secret-lint": 671
+   "cse-bridge": 12,
+   "eslint10-matrix": 8,
+   "gemcatch": 16,
+   "grok-loop-kit": 7,
+   "grokscope": 20,
+   "mcp-app-debug": 75,
+   "npm-script-lens": 122,
+   "pal-schema-collect": 2,
+   "pmpt-eject": 2,
+   "pnpm11-ci-guard": 12,
+   "runner-drift": 24,
+   "studio-os": 9,
+   "ts7-compat-guard": 72,
+   "wow-secret-lint": 485
   },
   "packages": 18,
   "top": "wow-secret-lint",
-  "top_n": 671,
-  "weekly": 1218
+  "top_n": 485,
+  "weekly": 913
  },
  "radar": {
-  "affected": 787,
+  "affected": 785,
   "buckets": [
    [
     "2026.11",
@@ -55,7 +55,7 @@
    ],
    [
     "2027.5",
-    27
+    32
    ],
    [
     "2027.6",
@@ -67,29 +67,29 @@
    ],
    [
     "2027.8",
-    532
+    529
    ],
    [
     "2027.9",
-    61
+    59
    ],
    [
     "2027.10",
-    98
+    96
    ]
   ],
-  "clean": 3212,
+  "clean": 3213,
   "core": "2026.11",
-  "findings": 1924,
-  "generated": "2026-10-17T03:29:56Z",
+  "findings": 1907,
+  "generated": "2026-10-18T03:32:11Z",
   "next_count": 15,
   "next_release": "2026.11",
   "rules": 122,
-  "scanned": 4002
+  "scanned": 3983
  },
  "upstream": {
   "merged": 50,
-  "open": 36,
+  "open": 35,
   "projects": 30,
   "top": [
    [
