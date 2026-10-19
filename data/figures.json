@@ -15,7 +15,7 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-18T11:14:03+00:00",
+ "generated_utc": "2026-10-19T11:17:18+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 8,
@@ -43,7 +43,7 @@
   "weekly": 913
  },
  "radar": {
-  "affected": 785,
+  "affected": 804,
   "buckets": [
    [
     "2026.11",
@@ -55,37 +55,37 @@
    ],
    [
     "2027.5",
-    32
+    38
    ],
    [
     "2027.6",
-    42
+    43
    ],
    [
     "2027.7",
-    11
+    12
    ],
    [
     "2027.8",
-    529
+    542
    ],
    [
     "2027.9",
-    59
+    58
    ],
    [
     "2027.10",
-    96
+    95
    ]
   ],
-  "clean": 3213,
+  "clean": 3294,
   "core": "2026.11",
-  "findings": 1907,
-  "generated": "2026-10-18T03:32:11Z",
+  "findings": 1927,
+  "generated": "2026-10-19T03:52:54Z",
   "next_count": 15,
   "next_release": "2026.11",
-  "rules": 122,
-  "scanned": 3983
+  "rules": 121,
+  "scanned": 4066
  },
  "upstream": {
   "merged": 50,
