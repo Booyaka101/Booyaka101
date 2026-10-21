@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="200" viewBox="0 0 620 200" role="img" aria-label="When HACS integrations first break: 2026.11 17; 2026.12 2; 2027.5 38; 2027.6 45; 2027.7 14; 2027.8 586; 2027.9 63; 2027.10 105">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="200" viewBox="0 0 620 200" role="img" aria-label="When HACS integrations first break: 2026.11 19; 2026.12 2; 2027.5 41; 2027.6 46; 2027.7 14; 2027.8 614; 2027.9 68; 2027.10 113">
 <rect width="620" height="200" rx="8" fill="#ffffff" stroke="#d1d9e0"/>
 <text x="22" y="26" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#1f2328" font-weight="600">When your HACS integrations first break</text>
-<text x="22" y="43" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">870 affected, measured against Home Assistant 2026.11</text>
-<path d="M46.0,168 V168.0 a3.2,3.2 0 0 1 3.2,-3.2 h17.6 a3.2,3.2 0 0 1 3.2,3.2 V168 Z" fill="#0969da"/>
-<text x="58" y="157" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">17</text>
+<text x="22" y="43" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">917 affected, measured against Home Assistant 2026.11</text>
+<path d="M46.0,168 V168.0 a3.4,3.4 0 0 1 3.4,-3.4 h17.2 a3.4,3.4 0 0 1 3.4,3.4 V168 Z" fill="#0969da"/>
+<text x="58" y="157" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">19</text>
 <text x="58" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2026.11</text>
 <path d="M118.0,168 V168.0 a2.0,2.0 0 0 1 2.0,-2.0 h20.0 a2.0,2.0 0 0 1 2.0,2.0 V168 Z" fill="#0969da"/>
 <text x="130" y="158" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">2</text>
 <text x="130" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2026.12</text>
-<path d="M190.0,168 V164.9 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
-<text x="202" y="153" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">38</text>
+<path d="M190.0,168 V164.7 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
+<text x="202" y="153" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">41</text>
 <text x="202" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2027.5</text>
-<path d="M262.0,168 V163.6 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
-<text x="274" y="152" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">45</text>
+<path d="M262.0,168 V163.8 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
+<text x="274" y="152" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">46</text>
 <text x="274" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2027.6</text>
-<path d="M334.0,168 V168.0 a2.6,2.6 0 0 1 2.6,-2.6 h18.7 a2.6,2.6 0 0 1 2.6,2.6 V168 Z" fill="#0969da"/>
+<path d="M334.0,168 V168.0 a2.5,2.5 0 0 1 2.5,-2.5 h19.0 a2.5,2.5 0 0 1 2.5,2.5 V168 Z" fill="#0969da"/>
 <text x="346" y="157" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">14</text>
 <text x="346" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2027.7</text>
 <path d="M406.0,168 V62.0 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
-<text x="418" y="50" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">586</text>
+<text x="418" y="50" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">614</text>
 <text x="418" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2027.8</text>
-<path d="M478.0,168 V160.2 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
-<text x="490" y="148" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">63</text>
+<path d="M478.0,168 V159.8 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
+<text x="490" y="148" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">68</text>
 <text x="490" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2027.9</text>
-<path d="M550.0,168 V152.3 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
-<text x="562" y="140" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">105</text>
+<path d="M550.0,168 V151.8 a4.0,4.0 0 0 1 4.0,-4.0 h16.0 a4.0,4.0 0 0 1 4.0,4.0 V168 Z" fill="#0969da"/>
+<text x="562" y="140" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#1f2328" font-weight="600">113</text>
 <text x="562" y="186" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#59636e">2027.10</text>
 <line x1="22" y1="168" x2="598" y2="168" stroke="#d1d9e0"/>
 </svg>
