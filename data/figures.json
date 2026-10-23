@@ -15,7 +15,7 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-22T11:17:18+00:00",
+ "generated_utc": "2026-10-23T11:17:53+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 10,
@@ -55,11 +55,11 @@
    ],
    [
     "2027.5",
-    44
+    47
    ],
    [
     "2027.6",
-    47
+    46
    ],
    [
     "2027.7",
@@ -71,21 +71,21 @@
    ],
    [
     "2027.9",
-    69
+    68
    ],
    [
     "2027.10",
-    118
+    117
    ]
   ],
-  "clean": 3981,
+  "clean": 3984,
   "core": "2026.11",
-  "findings": 2188,
-  "generated": "2026-10-22T03:36:48Z",
+  "findings": 2178,
+  "generated": "2026-10-23T03:34:32Z",
   "next_count": 18,
   "next_release": "2026.11",
-  "rules": 122,
-  "scanned": 4887
+  "rules": 125,
+  "scanned": 4888
  },
  "upstream": {
   "merged": 51,
@@ -197,7 +197,7 @@
     1
    ],
    [
-    "darkwyrm/base85",
+    "geraldhmt/base85",
     1
    ],
    [
