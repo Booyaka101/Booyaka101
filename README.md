@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-10-23.</sub>
+<sub>Live figures, rebuilt 2026-10-24.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **744** installs a week between **18** of them, most of it `npm-script-lens` at 285.
+> The packages I publish are pulling **642** installs a week between **18** of them, most of it `npm-script-lens` at 200.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -67,7 +67,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 ### Upstream
 
 <!-- auto:upstream -->
-When I depend on something and hit a real bug, I send the fix back. **51 merged PRs across 31 projects**, including core, koreader (2), nvim-lspconfig, gh-dash (2), ai-toolkit, sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust. 34 more open.
+When I depend on something and hit a real bug, I send the fix back. **49 merged PRs across 30 projects**, including core, koreader (2), nvim-lspconfig, gh-dash (2), ai-toolkit, sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust. 34 more open.
 <!-- /auto:upstream -->
 
 [Every PR I've opened](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) · [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions)
