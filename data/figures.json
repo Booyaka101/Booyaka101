@@ -1,10 +1,10 @@
 {
  "census": {
-  "high": 21,
-  "scripted": 31,
+  "high": 22,
+  "scripted": 32,
   "top_downloads": 0,
   "top_name": null,
-  "total": 3414
+  "total": 3451
  },
  "eslint": {
   "broke": 6,
@@ -15,7 +15,7 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-24T11:14:51+00:00",
+ "generated_utc": "2026-10-25T11:15:00+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 5,
@@ -43,7 +43,7 @@
   "weekly": 642
  },
  "radar": {
-  "affected": 947,
+  "affected": 994,
   "buckets": [
    [
     "2026.11",
@@ -59,36 +59,36 @@
    ],
    [
     "2027.6",
-    44
+    46
    ],
    [
     "2027.7",
-    14
+    16
    ],
    [
     "2027.8",
-    628
+    658
    ],
    [
     "2027.9",
-    68
+    76
    ],
    [
     "2027.10",
-    117
+    122
    ]
   ],
-  "clean": 3984,
+  "clean": 4293,
   "core": "2026.11",
-  "findings": 2178,
-  "generated": "2026-10-24T03:32:20Z",
+  "findings": 2283,
+  "generated": "2026-10-25T03:37:09Z",
   "next_count": 18,
   "next_release": "2026.11",
   "rules": 125,
-  "scanned": 4888
+  "scanned": 5242
  },
  "upstream": {
-  "merged": 49,
+  "merged": 47,
   "open": 34,
   "projects": 30,
   "top": [
@@ -202,7 +202,7 @@
    ],
    [
     "benitogf/detritus",
-    8
+    6
    ],
    [
     "Epoch-AI-Lab/blueline",

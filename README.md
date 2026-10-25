@@ -8,7 +8,7 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-10-24.</sub>
+<sub>Live figures, rebuilt 2026-10-25.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **4,888** HACS integrations against core 2026.11 and found **2,178** deprecation hits across **947** repos. **3,984** are clean. Next up: **18** break in Home Assistant 2026.11.
+> Today's crawl checked **5,242** HACS integrations against core 2026.11 and found **2,283** deprecation hits across **994** repos. **4,293** are clean. Next up: **18** break in Home Assistant 2026.11.
 <!-- /auto:radar -->
 
 <picture>
@@ -39,7 +39,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens. [Live dashboard](https://booyaka101.github.io/npm-install-census/).
 
 <!-- auto:census -->
-> Today's census audited **3,414** packages from the registry: **31** run an install script, **21** score HIGH.
+> Today's census audited **3,451** packages from the registry: **32** run an install script, **22** score HIGH.
 <!-- /auto:census -->
 
 ### Tools
@@ -67,7 +67,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 ### Upstream
 
 <!-- auto:upstream -->
-When I depend on something and hit a real bug, I send the fix back. **49 merged PRs across 30 projects**, including core, koreader (2), nvim-lspconfig, gh-dash (2), ai-toolkit, sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust. 34 more open.
+When I depend on something and hit a real bug, I send the fix back. **47 merged PRs across 30 projects**, including core, koreader (2), nvim-lspconfig, gh-dash (2), ai-toolkit, sqlfluff (6), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust. 34 more open.
 <!-- /auto:upstream -->
 
 [Every PR I've opened](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) · [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions)
