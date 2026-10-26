@@ -15,7 +15,7 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-25T11:15:00+00:00",
+ "generated_utc": "2026-10-26T11:20:45+00:00",
  "npm": {
   "each": {
    "@booyaka/mcp-vet": 5,
@@ -43,7 +43,7 @@
   "weekly": 642
  },
  "radar": {
-  "affected": 994,
+  "affected": 996,
   "buckets": [
    [
     "2026.11",
@@ -55,7 +55,7 @@
    ],
    [
     "2027.5",
-    56
+    57
    ],
    [
     "2027.6",
@@ -67,7 +67,7 @@
    ],
    [
     "2027.8",
-    658
+    657
    ],
    [
     "2027.9",
@@ -75,20 +75,20 @@
    ],
    [
     "2027.10",
-    122
+    124
    ]
   ],
-  "clean": 4293,
+  "clean": 4298,
   "core": "2026.11",
-  "findings": 2283,
-  "generated": "2026-10-25T03:37:09Z",
+  "findings": 2286,
+  "generated": "2026-10-26T03:39:46Z",
   "next_count": 18,
   "next_release": "2026.11",
-  "rules": 125,
-  "scanned": 5242
+  "rules": 126,
+  "scanned": 5249
  },
  "upstream": {
-  "merged": 47,
+  "merged": 43,
   "open": 34,
   "projects": 30,
   "top": [
@@ -202,7 +202,7 @@
    ],
    [
     "benitogf/detritus",
-    6
+    2
    ],
    [
     "Epoch-AI-Lab/blueline",
