@@ -15,32 +15,32 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-26T11:20:45+00:00",
+ "generated_utc": "2026-10-27T11:17:46+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 5,
-   "actions-attic": 16,
-   "agent-plugins-conformance-kit": 12,
-   "cargo-witness": 12,
-   "cse-bridge": 12,
-   "eslint10-matrix": 30,
-   "gemcatch": 18,
-   "grok-loop-kit": 18,
-   "grokscope": 17,
-   "mcp-app-debug": 99,
-   "npm-script-lens": 200,
-   "pal-schema-collect": 1,
-   "pmpt-eject": 2,
-   "pnpm11-ci-guard": 11,
-   "runner-drift": 25,
-   "studio-os": 11,
-   "ts7-compat-guard": 113,
-   "wow-secret-lint": 40
+   "@booyaka/mcp-vet": 0,
+   "actions-attic": 0,
+   "agent-plugins-conformance-kit": 0,
+   "cargo-witness": 0,
+   "cse-bridge": 0,
+   "eslint10-matrix": 0,
+   "gemcatch": 0,
+   "grok-loop-kit": 0,
+   "grokscope": 0,
+   "mcp-app-debug": 0,
+   "npm-script-lens": 0,
+   "pal-schema-collect": 0,
+   "pmpt-eject": 0,
+   "pnpm11-ci-guard": 0,
+   "runner-drift": 0,
+   "studio-os": 0,
+   "ts7-compat-guard": 0,
+   "wow-secret-lint": 0
   },
   "packages": 18,
-  "top": "npm-script-lens",
-  "top_n": 200,
-  "weekly": 642
+  "top": "@booyaka/mcp-vet",
+  "top_n": 0,
+  "weekly": 0
  },
  "radar": {
   "affected": 996,
@@ -63,11 +63,11 @@
    ],
    [
     "2027.7",
-    16
+    17
    ],
    [
     "2027.8",
-    657
+    656
    ],
    [
     "2027.9",
@@ -80,17 +80,17 @@
   ],
   "clean": 4298,
   "core": "2026.11",
-  "findings": 2286,
-  "generated": "2026-10-26T03:39:46Z",
+  "findings": 2282,
+  "generated": "2026-10-27T03:53:49Z",
   "next_count": 18,
   "next_release": "2026.11",
   "rules": 126,
   "scanned": 5249
  },
  "upstream": {
-  "merged": 43,
-  "open": 34,
-  "projects": 30,
+  "merged": 40,
+  "open": 33,
+  "projects": 29,
   "top": [
    [
     "home-assistant/core",
@@ -138,7 +138,7 @@
    ],
    [
     "obsidian-nvim/obsidian.nvim",
-    2
+    1
    ],
    [
     "probberechts/soccerdata",
@@ -161,10 +161,6 @@
     1
    ],
    [
-    "Lifailon/lazyjournal",
-    1
-   ],
-   [
     "gbprod/yanky.nvim",
     1
    ],
@@ -174,7 +170,7 @@
    ],
    [
     "vrgamegirl19/comfyui-vrgamedevgirl",
-    2
+    1
    ],
    [
     "hacs/default",
