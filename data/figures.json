@@ -15,39 +15,39 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-10-29T11:12:39+00:00",
+ "generated_utc": "2026-10-30T11:11:34+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 12,
-   "actions-attic": 6,
-   "agent-plugins-conformance-kit": 194,
+   "@booyaka/mcp-vet": 23,
+   "actions-attic": 11,
+   "agent-plugins-conformance-kit": 203,
    "cargo-witness": 26,
-   "cse-bridge": 10,
-   "eslint10-matrix": 17,
-   "gemcatch": 52,
-   "grok-loop-kit": 23,
-   "grokscope": 24,
-   "mcp-app-debug": 89,
-   "npm-script-lens": 184,
-   "pal-schema-collect": 3,
-   "pmpt-eject": 1,
+   "cse-bridge": 17,
+   "eslint10-matrix": 22,
+   "gemcatch": 54,
+   "grok-loop-kit": 31,
+   "grokscope": 26,
+   "mcp-app-debug": 131,
+   "npm-script-lens": 207,
+   "pal-schema-collect": 6,
+   "pmpt-eject": 2,
    "pnpm11-ci-guard": 3,
-   "runner-drift": 238,
-   "studio-os": 12,
-   "ts7-compat-guard": 100,
-   "wow-secret-lint": 108
+   "runner-drift": 247,
+   "studio-os": 13,
+   "ts7-compat-guard": 121,
+   "wow-secret-lint": 123
   },
   "packages": 18,
   "top": "runner-drift",
-  "top_n": 238,
-  "weekly": 1102
+  "top_n": 247,
+  "weekly": 1266
  },
  "radar": {
   "affected": 993,
   "buckets": [
    [
     "2026.11",
-    18
+    19
    ],
    [
     "2026.12",
@@ -55,11 +55,11 @@
    ],
    [
     "2027.5",
-    57
+    58
    ],
    [
     "2027.6",
-    45
+    44
    ],
    [
     "2027.7",
@@ -71,26 +71,26 @@
    ],
    [
     "2027.9",
-    74
+    72
    ],
    [
     "2027.10",
-    126
+    127
    ]
   ],
   "clean": 4301,
   "core": "2026.12",
-  "findings": 2271,
-  "generated": "2026-10-29T03:27:55Z",
-  "next_count": 18,
+  "findings": 2270,
+  "generated": "2026-10-30T03:30:16Z",
+  "next_count": 19,
   "next_release": "2026.11",
-  "rules": 130,
+  "rules": 131,
   "scanned": 5248
  },
  "upstream": {
-  "merged": 40,
+  "merged": 39,
   "open": 33,
-  "projects": 29,
+  "projects": 28,
   "top": [
    [
     "home-assistant/core",
@@ -107,10 +107,6 @@
    [
     "dlvhdr/gh-dash",
     2
-   ],
-   [
-    "ostris/ai-toolkit",
-    1
    ],
    [
     "sqlfluff/sqlfluff",
