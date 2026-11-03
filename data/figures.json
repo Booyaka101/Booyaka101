@@ -15,39 +15,39 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-02T11:11:35+00:00",
+ "generated_utc": "2026-11-03T11:11:23+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 22,
-   "actions-attic": 9,
-   "agent-plugins-conformance-kit": 206,
-   "cargo-witness": 20,
-   "cse-bridge": 13,
-   "eslint10-matrix": 18,
-   "gemcatch": 48,
-   "grok-loop-kit": 30,
-   "grokscope": 34,
-   "mcp-app-debug": 124,
-   "npm-script-lens": 212,
-   "pal-schema-collect": 14,
-   "pmpt-eject": 3,
-   "pnpm11-ci-guard": 9,
-   "runner-drift": 285,
-   "studio-os": 16,
-   "ts7-compat-guard": 78,
-   "wow-secret-lint": 121
+   "@booyaka/mcp-vet": 218,
+   "actions-attic": 18,
+   "agent-plugins-conformance-kit": 227,
+   "cargo-witness": 22,
+   "cse-bridge": 25,
+   "eslint10-matrix": 15,
+   "gemcatch": 51,
+   "grok-loop-kit": 42,
+   "grokscope": 39,
+   "mcp-app-debug": 148,
+   "npm-script-lens": 227,
+   "pal-schema-collect": 25,
+   "pmpt-eject": 5,
+   "pnpm11-ci-guard": 14,
+   "runner-drift": 177,
+   "studio-os": 19,
+   "ts7-compat-guard": 168,
+   "wow-secret-lint": 73
   },
   "packages": 18,
-  "top": "runner-drift",
-  "top_n": 285,
-  "weekly": 1262
+  "top": "agent-plugins-conformance-kit",
+  "top_n": 227,
+  "weekly": 1513
  },
  "radar": {
-  "affected": 988,
+  "affected": 992,
   "buckets": [
    [
     "2026.11",
-    19
+    18
    ],
    [
     "2026.12",
@@ -67,11 +67,11 @@
    ],
    [
     "2027.8",
-    645
+    648
    ],
    [
     "2027.9",
-    72
+    71
    ],
    [
     "2027.10",
@@ -79,22 +79,22 @@
    ],
    [
     "2027.12",
-    7
+    10
    ]
   ],
-  "clean": 4305,
+  "clean": 4301,
   "core": "2026.12",
-  "findings": 2273,
-  "generated": "2026-11-02T03:26:53Z",
-  "next_count": 19,
+  "findings": 2270,
+  "generated": "2026-11-03T03:24:42Z",
+  "next_count": 18,
   "next_release": "2026.11",
-  "rules": 142,
+  "rules": 145,
   "scanned": 5248
  },
  "upstream": {
-  "merged": 36,
-  "open": 32,
-  "projects": 27,
+  "merged": 33,
+  "open": 31,
+  "projects": 25,
   "top": [
    [
     "home-assistant/core",
@@ -107,10 +107,6 @@
    [
     "neovim/nvim-lspconfig",
     1
-   ],
-   [
-    "dlvhdr/gh-dash",
-    2
    ],
    [
     "sqlfluff/sqlfluff",
@@ -162,10 +158,6 @@
    ],
    [
     "gbprod/yanky.nvim",
-    1
-   ],
-   [
-    "vrgamegirl19/comfyui-vrgamedevgirl",
     1
    ],
    [
