@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-03T11:11:23+00:00",
+ "generated_utc": "2026-11-04T11:12:16+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 218,
+   "@booyaka/mcp-vet": 416,
    "actions-attic": 18,
-   "agent-plugins-conformance-kit": 227,
-   "cargo-witness": 22,
-   "cse-bridge": 25,
-   "eslint10-matrix": 15,
-   "gemcatch": 51,
-   "grok-loop-kit": 42,
-   "grokscope": 39,
-   "mcp-app-debug": 148,
-   "npm-script-lens": 227,
-   "pal-schema-collect": 25,
-   "pmpt-eject": 5,
-   "pnpm11-ci-guard": 14,
-   "runner-drift": 177,
-   "studio-os": 19,
-   "ts7-compat-guard": 168,
-   "wow-secret-lint": 73
+   "agent-plugins-conformance-kit": 242,
+   "cargo-witness": 19,
+   "cse-bridge": 31,
+   "eslint10-matrix": 16,
+   "gemcatch": 24,
+   "grok-loop-kit": 44,
+   "grokscope": 38,
+   "mcp-app-debug": 169,
+   "npm-script-lens": 261,
+   "pal-schema-collect": 28,
+   "pmpt-eject": 6,
+   "pnpm11-ci-guard": 21,
+   "runner-drift": 197,
+   "studio-os": 24,
+   "ts7-compat-guard": 194,
+   "wow-secret-lint": 255
   },
   "packages": 18,
-  "top": "agent-plugins-conformance-kit",
-  "top_n": 227,
-  "weekly": 1513
+  "top": "@booyaka/mcp-vet",
+  "top_n": 416,
+  "weekly": 2003
  },
  "radar": {
-  "affected": 992,
+  "affected": 995,
   "buckets": [
    [
     "2026.11",
@@ -55,7 +55,7 @@
    ],
    [
     "2027.5",
-    60
+    61
    ],
    [
     "2027.6",
@@ -71,29 +71,29 @@
    ],
    [
     "2027.9",
-    71
+    73
    ],
    [
     "2027.10",
-    124
+    121
    ],
    [
     "2027.12",
-    10
+    13
    ]
   ],
-  "clean": 4301,
+  "clean": 4295,
   "core": "2026.12",
-  "findings": 2270,
-  "generated": "2026-11-03T03:24:42Z",
+  "findings": 2271,
+  "generated": "2026-11-04T03:40:39Z",
   "next_count": 18,
   "next_release": "2026.11",
-  "rules": 145,
+  "rules": 143,
   "scanned": 5248
  },
  "upstream": {
-  "merged": 33,
-  "open": 31,
+  "merged": 32,
+  "open": 30,
   "projects": 25,
   "top": [
    [
@@ -110,7 +110,7 @@
    ],
    [
     "sqlfluff/sqlfluff",
-    5
+    4
    ],
    [
     "nvim-lualine/lualine.nvim",
@@ -173,11 +173,11 @@
     1
    ],
    [
-    "silveroxides/ComfyUI-ModelUtils",
+    "gitbot-hq/Library",
     1
    ],
    [
-    "gitbot-hq/Library",
+    "silveroxides/ComfyUI-ModelUtils",
     1
    ],
    [
@@ -189,11 +189,11 @@
     2
    ],
    [
-    "Epoch-AI-Lab/blueline",
+    "benitogf/pivot",
     1
    ],
    [
-    "benitogf/pivot",
+    "kridaydave/blueline",
     1
    ]
   ]
