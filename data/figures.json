@@ -15,81 +15,77 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-04T11:12:16+00:00",
+ "generated_utc": "2026-11-05T11:11:15+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 416,
-   "actions-attic": 18,
-   "agent-plugins-conformance-kit": 242,
+   "@booyaka/mcp-vet": 424,
+   "actions-attic": 15,
+   "agent-plugins-conformance-kit": 256,
    "cargo-witness": 19,
-   "cse-bridge": 31,
-   "eslint10-matrix": 16,
+   "cse-bridge": 24,
+   "eslint10-matrix": 13,
    "gemcatch": 24,
-   "grok-loop-kit": 44,
-   "grokscope": 38,
-   "mcp-app-debug": 169,
-   "npm-script-lens": 261,
-   "pal-schema-collect": 28,
-   "pmpt-eject": 6,
-   "pnpm11-ci-guard": 21,
-   "runner-drift": 197,
-   "studio-os": 24,
-   "ts7-compat-guard": 194,
-   "wow-secret-lint": 255
+   "grok-loop-kit": 42,
+   "grokscope": 42,
+   "mcp-app-debug": 158,
+   "npm-script-lens": 245,
+   "pal-schema-collect": 25,
+   "pmpt-eject": 5,
+   "pnpm11-ci-guard": 22,
+   "runner-drift": 188,
+   "studio-os": 26,
+   "ts7-compat-guard": 184,
+   "wow-secret-lint": 275
   },
   "packages": 18,
   "top": "@booyaka/mcp-vet",
-  "top_n": 416,
-  "weekly": 2003
+  "top_n": 424,
+  "weekly": 1987
  },
  "radar": {
-  "affected": 995,
+  "affected": 1067,
   "buckets": [
-   [
-    "2026.11",
-    18
-   ],
    [
     "2026.12",
     1
    ],
    [
     "2027.5",
-    61
+    62
    ],
    [
     "2027.6",
-    44
+    46
    ],
    [
     "2027.7",
-    16
+    21
    ],
    [
     "2027.8",
-    648
+    711
    ],
    [
     "2027.9",
-    73
+    77
    ],
    [
     "2027.10",
-    121
+    131
    ],
    [
     "2027.12",
-    13
+    18
    ]
   ],
-  "clean": 4295,
+  "clean": 4622,
   "core": "2026.12",
-  "findings": 2271,
-  "generated": "2026-11-04T03:40:39Z",
-  "next_count": 18,
-  "next_release": "2026.11",
-  "rules": 143,
-  "scanned": 5248
+  "findings": 2360,
+  "generated": "2026-11-05T03:41:29Z",
+  "next_count": 1,
+  "next_release": "2026.12",
+  "rules": 136,
+  "scanned": 5639
  },
  "upstream": {
   "merged": 32,
