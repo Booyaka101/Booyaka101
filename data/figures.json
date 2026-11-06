@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-05T11:11:15+00:00",
+ "generated_utc": "2026-11-06T11:10:56+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 424,
-   "actions-attic": 15,
-   "agent-plugins-conformance-kit": 256,
-   "cargo-witness": 19,
+   "@booyaka/mcp-vet": 439,
+   "actions-attic": 16,
+   "agent-plugins-conformance-kit": 259,
+   "cargo-witness": 18,
    "cse-bridge": 24,
    "eslint10-matrix": 13,
    "gemcatch": 24,
-   "grok-loop-kit": 42,
-   "grokscope": 42,
-   "mcp-app-debug": 158,
-   "npm-script-lens": 245,
-   "pal-schema-collect": 25,
+   "grok-loop-kit": 36,
+   "grokscope": 31,
+   "mcp-app-debug": 176,
+   "npm-script-lens": 234,
+   "pal-schema-collect": 17,
    "pmpt-eject": 5,
-   "pnpm11-ci-guard": 22,
-   "runner-drift": 188,
-   "studio-os": 26,
-   "ts7-compat-guard": 184,
-   "wow-secret-lint": 275
+   "pnpm11-ci-guard": 16,
+   "runner-drift": 147,
+   "studio-os": 19,
+   "ts7-compat-guard": 182,
+   "wow-secret-lint": 344
   },
   "packages": 18,
   "top": "@booyaka/mcp-vet",
-  "top_n": 424,
-  "weekly": 1987
+  "top_n": 439,
+  "weekly": 2000
  },
  "radar": {
-  "affected": 1067,
+  "affected": 1139,
   "buckets": [
    [
     "2026.12",
@@ -51,7 +51,7 @@
    ],
    [
     "2027.5",
-    62
+    65
    ],
    [
     "2027.6",
@@ -59,36 +59,36 @@
    ],
    [
     "2027.7",
-    21
+    22
    ],
    [
     "2027.8",
-    711
+    758
    ],
    [
     "2027.9",
-    77
+    87
    ],
    [
     "2027.10",
-    131
+    141
    ],
    [
     "2027.12",
-    18
+    19
    ]
   ],
-  "clean": 4622,
+  "clean": 4950,
   "core": "2026.12",
-  "findings": 2360,
-  "generated": "2026-11-05T03:41:29Z",
+  "findings": 2479,
+  "generated": "2026-11-06T03:27:37Z",
   "next_count": 1,
   "next_release": "2026.12",
   "rules": 136,
-  "scanned": 5639
+  "scanned": 6038
  },
  "upstream": {
-  "merged": 32,
+  "merged": 31,
   "open": 30,
   "projects": 25,
   "top": [
@@ -146,7 +146,7 @@
    ],
    [
     "dlvhdr/diffnav",
-    2
+    1
    ],
    [
     "aeon-toolkit/aeon",
