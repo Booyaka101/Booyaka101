@@ -1,10 +1,10 @@
 {
  "census": {
-  "high": 23,
-  "scripted": 33,
+  "high": 24,
+  "scripted": 34,
   "top_downloads": 0,
   "top_name": null,
-  "total": 3523
+  "total": 3595
  },
  "eslint": {
   "broke": 6,
@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-07T11:09:26+00:00",
+ "generated_utc": "2026-11-08T11:09:42+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 490,
-   "actions-attic": 15,
-   "agent-plugins-conformance-kit": 262,
-   "cargo-witness": 18,
-   "cse-bridge": 23,
-   "eslint10-matrix": 10,
+   "@booyaka/mcp-vet": 498,
+   "actions-attic": 14,
+   "agent-plugins-conformance-kit": 278,
+   "cargo-witness": 17,
+   "cse-bridge": 20,
+   "eslint10-matrix": 12,
    "gemcatch": 23,
-   "grok-loop-kit": 36,
-   "grokscope": 32,
-   "mcp-app-debug": 191,
-   "npm-script-lens": 247,
-   "pal-schema-collect": 14,
-   "pmpt-eject": 4,
+   "grok-loop-kit": 34,
+   "grokscope": 31,
+   "mcp-app-debug": 195,
+   "npm-script-lens": 236,
+   "pal-schema-collect": 12,
+   "pmpt-eject": 3,
    "pnpm11-ci-guard": 25,
-   "runner-drift": 151,
-   "studio-os": 19,
-   "ts7-compat-guard": 185,
-   "wow-secret-lint": 456
+   "runner-drift": 147,
+   "studio-os": 18,
+   "ts7-compat-guard": 176,
+   "wow-secret-lint": 573
   },
   "packages": 18,
-  "top": "@booyaka/mcp-vet",
-  "top_n": 490,
-  "weekly": 2201
+  "top": "wow-secret-lint",
+  "top_n": 573,
+  "weekly": 2312
  },
  "radar": {
-  "affected": 1151,
+  "affected": 1154,
   "buckets": [
    [
     "2026.12",
@@ -63,7 +63,7 @@
    ],
    [
     "2027.8",
-    761
+    760
    ],
    [
     "2027.9",
@@ -75,17 +75,17 @@
    ],
    [
     "2027.12",
-    29
+    33
    ]
   ],
-  "clean": 4961,
+  "clean": 4958,
   "core": "2026.12",
-  "findings": 2520,
-  "generated": "2026-11-07T03:28:13Z",
+  "findings": 2535,
+  "generated": "2026-11-08T03:22:41Z",
   "next_count": 1,
   "next_release": "2026.12",
-  "rules": 147,
-  "scanned": 6061
+  "rules": 148,
+  "scanned": 6060
  },
  "upstream": {
   "merged": 31,
