@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-11-08.</sub>
+<sub>Live figures, rebuilt 2026-11-09.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **2,312** installs a week between **18** of them, most of it `wow-secret-lint` at 573.
+> The packages I publish are pulling **2,251** installs a week between **18** of them, most of it `wow-secret-lint` at 723.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **6,060** HACS integrations against core 2026.12 and found **2,535** deprecation hits across **1,154** repos. **4,958** are clean. Next up: **1** break in Home Assistant 2026.12.
+> Today's crawl checked **6,060** HACS integrations against core 2026.12 and found **2,554** deprecation hits across **1,161** repos. **4,953** are clean. Next up: **1** break in Home Assistant 2026.12.
 <!-- /auto:radar -->
 
 <picture>
@@ -67,7 +67,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 ### Upstream
 
 <!-- auto:upstream -->
-When I depend on something and hit a real bug, I send the fix back. **31 merged PRs across 25 projects**, including core, koreader (2), nvim-lspconfig, sqlfluff (4), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust, aerial.nvim (2), obsidian.nvim. 30 more open.
+When I depend on something and hit a real bug, I send the fix back. **30 merged PRs across 24 projects**, including core, koreader (2), nvim-lspconfig, sqlfluff (4), lualine.nvim, awesome-nodejs-security, minijinja, this-week-in-rust, aerial.nvim (2), obsidian.nvim. 29 more open.
 <!-- /auto:upstream -->
 
 [Every PR I've opened](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) · [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions)

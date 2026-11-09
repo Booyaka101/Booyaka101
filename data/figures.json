@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-08T11:09:42+00:00",
+ "generated_utc": "2026-11-09T11:11:37+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 498,
-   "actions-attic": 14,
-   "agent-plugins-conformance-kit": 278,
-   "cargo-witness": 17,
-   "cse-bridge": 20,
-   "eslint10-matrix": 12,
-   "gemcatch": 23,
-   "grok-loop-kit": 34,
-   "grokscope": 31,
-   "mcp-app-debug": 195,
-   "npm-script-lens": 236,
-   "pal-schema-collect": 12,
-   "pmpt-eject": 3,
-   "pnpm11-ci-guard": 25,
-   "runner-drift": 147,
-   "studio-os": 18,
-   "ts7-compat-guard": 176,
-   "wow-secret-lint": 573
+   "@booyaka/mcp-vet": 490,
+   "actions-attic": 7,
+   "agent-plugins-conformance-kit": 274,
+   "cargo-witness": 8,
+   "cse-bridge": 13,
+   "eslint10-matrix": 14,
+   "gemcatch": 24,
+   "grok-loop-kit": 27,
+   "grokscope": 28,
+   "mcp-app-debug": 187,
+   "npm-script-lens": 155,
+   "pal-schema-collect": 8,
+   "pmpt-eject": 2,
+   "pnpm11-ci-guard": 24,
+   "runner-drift": 84,
+   "studio-os": 14,
+   "ts7-compat-guard": 169,
+   "wow-secret-lint": 723
   },
   "packages": 18,
   "top": "wow-secret-lint",
-  "top_n": 573,
-  "weekly": 2312
+  "top_n": 723,
+  "weekly": 2251
  },
  "radar": {
-  "affected": 1154,
+  "affected": 1161,
   "buckets": [
    [
     "2026.12",
@@ -63,11 +63,11 @@
    ],
    [
     "2027.8",
-    760
+    766
    ],
    [
     "2027.9",
-    87
+    86
    ],
    [
     "2027.10",
@@ -75,22 +75,22 @@
    ],
    [
     "2027.12",
-    33
+    35
    ]
   ],
-  "clean": 4958,
+  "clean": 4953,
   "core": "2026.12",
-  "findings": 2535,
-  "generated": "2026-11-08T03:22:41Z",
+  "findings": 2554,
+  "generated": "2026-11-09T03:27:35Z",
   "next_count": 1,
   "next_release": "2026.12",
   "rules": 148,
   "scanned": 6060
  },
  "upstream": {
-  "merged": 31,
-  "open": 30,
-  "projects": 25,
+  "merged": 30,
+  "open": 29,
+  "projects": 24,
   "top": [
    [
     "home-assistant/core",
@@ -142,10 +142,6 @@
    ],
    [
     "Cockatrice/Cockatrice",
-    1
-   ],
-   [
-    "dlvhdr/diffnav",
     1
    ],
    [
