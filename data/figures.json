@@ -8,42 +8,42 @@
  },
  "eslint": {
   "broke": 6,
-  "clean": 45,
+  "clean": 46,
   "reach": 569394261,
   "total": 54,
   "v10": "10.14.0",
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-09T11:11:37+00:00",
+ "generated_utc": "2026-11-10T11:10:50+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 490,
+   "@booyaka/mcp-vet": 312,
    "actions-attic": 7,
-   "agent-plugins-conformance-kit": 274,
-   "cargo-witness": 8,
-   "cse-bridge": 13,
-   "eslint10-matrix": 14,
-   "gemcatch": 24,
-   "grok-loop-kit": 27,
-   "grokscope": 28,
-   "mcp-app-debug": 187,
-   "npm-script-lens": 155,
-   "pal-schema-collect": 8,
+   "agent-plugins-conformance-kit": 276,
+   "cargo-witness": 6,
+   "cse-bridge": 15,
+   "eslint10-matrix": 9,
+   "gemcatch": 14,
+   "grok-loop-kit": 23,
+   "grokscope": 19,
+   "mcp-app-debug": 165,
+   "npm-script-lens": 171,
+   "pal-schema-collect": 5,
    "pmpt-eject": 2,
-   "pnpm11-ci-guard": 24,
-   "runner-drift": 84,
-   "studio-os": 14,
-   "ts7-compat-guard": 169,
-   "wow-secret-lint": 723
+   "pnpm11-ci-guard": 25,
+   "runner-drift": 79,
+   "studio-os": 13,
+   "ts7-compat-guard": 123,
+   "wow-secret-lint": 773
   },
   "packages": 18,
   "top": "wow-secret-lint",
-  "top_n": 723,
-  "weekly": 2251
+  "top_n": 773,
+  "weekly": 2037
  },
  "radar": {
-  "affected": 1161,
+  "affected": 1194,
   "buckets": [
    [
     "2026.12",
@@ -55,7 +55,7 @@
    ],
    [
     "2027.6",
-    44
+    45
    ],
    [
     "2027.7",
@@ -63,34 +63,34 @@
    ],
    [
     "2027.8",
-    766
+    787
    ],
    [
     "2027.9",
-    86
+    90
    ],
    [
     "2027.10",
-    142
+    148
    ],
    [
     "2027.12",
-    35
+    36
    ]
   ],
-  "clean": 4953,
+  "clean": 5141,
   "core": "2026.12",
-  "findings": 2554,
-  "generated": "2026-11-09T03:27:35Z",
+  "findings": 2602,
+  "generated": "2026-11-10T03:25:19Z",
   "next_count": 1,
   "next_release": "2026.12",
-  "rules": 148,
-  "scanned": 6060
+  "rules": 150,
+  "scanned": 6281
  },
  "upstream": {
-  "merged": 30,
-  "open": 29,
-  "projects": 24,
+  "merged": 29,
+  "open": 27,
+  "projects": 23,
   "top": [
    [
     "home-assistant/core",
@@ -134,10 +134,6 @@
    ],
    [
     "probberechts/soccerdata",
-    1
-   ],
-   [
-    "Kosinkadink/ComfyUI-VideoHelperSuite",
     1
    ],
    [
