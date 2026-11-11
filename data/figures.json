@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-10T11:10:50+00:00",
+ "generated_utc": "2026-11-11T11:10:51+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 312,
-   "actions-attic": 7,
-   "agent-plugins-conformance-kit": 276,
-   "cargo-witness": 6,
-   "cse-bridge": 15,
-   "eslint10-matrix": 9,
-   "gemcatch": 14,
-   "grok-loop-kit": 23,
-   "grokscope": 19,
-   "mcp-app-debug": 165,
-   "npm-script-lens": 171,
-   "pal-schema-collect": 5,
+   "@booyaka/mcp-vet": 137,
+   "actions-attic": 6,
+   "agent-plugins-conformance-kit": 87,
+   "cargo-witness": 5,
+   "cse-bridge": 9,
+   "eslint10-matrix": 8,
+   "gemcatch": 17,
+   "grok-loop-kit": 21,
+   "grokscope": 17,
+   "mcp-app-debug": 131,
+   "npm-script-lens": 183,
+   "pal-schema-collect": 2,
    "pmpt-eject": 2,
-   "pnpm11-ci-guard": 25,
-   "runner-drift": 79,
-   "studio-os": 13,
-   "ts7-compat-guard": 123,
-   "wow-secret-lint": 773
+   "pnpm11-ci-guard": 19,
+   "runner-drift": 69,
+   "studio-os": 8,
+   "ts7-compat-guard": 143,
+   "wow-secret-lint": 613
   },
   "packages": 18,
   "top": "wow-secret-lint",
-  "top_n": 773,
-  "weekly": 2037
+  "top_n": 613,
+  "weekly": 1477
  },
  "radar": {
-  "affected": 1194,
+  "affected": 1195,
   "buckets": [
    [
     "2026.12",
@@ -71,7 +71,7 @@
    ],
    [
     "2027.10",
-    148
+    149
    ],
    [
     "2027.12",
@@ -80,11 +80,11 @@
   ],
   "clean": 5141,
   "core": "2026.12",
-  "findings": 2602,
-  "generated": "2026-11-10T03:25:19Z",
+  "findings": 2603,
+  "generated": "2026-11-11T03:24:47Z",
   "next_count": 1,
   "next_release": "2026.12",
-  "rules": 150,
+  "rules": 152,
   "scanned": 6281
  },
  "upstream": {
