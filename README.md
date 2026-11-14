@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-11-13.</sub>
+<sub>Live figures, rebuilt 2026-11-14.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **1,335** installs a week between **18** of them, most of it `wow-secret-lint` at 548.
+> The packages I publish are pulling **1,153** installs a week between **18** of them, most of it `wow-secret-lint` at 440.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **6,279** HACS integrations against core 2026.12 and found **2,626** deprecation hits across **1,199** repos. **5,144** are clean. Next up: **1** break in Home Assistant 2026.12.
+> Today's crawl checked **6,279** HACS integrations against core 2026.12 and found **2,635** deprecation hits across **1,203** repos. **5,140** are clean. Next up: **1** break in Home Assistant 2026.12.
 <!-- /auto:radar -->
 
 <picture>
@@ -33,7 +33,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[eslint10-matrix](https://github.com/Booyaka101/eslint10-matrix)**. Can you upgrade to ESLint 10 yet? A nightly matrix of plugins actually executed against real ESLint 9 and 10 installs, not read off a peer range, plus a CLI that answers it for your own repo. [Live matrix](https://booyaka101.github.io/eslint10-matrix/).
 
 <!-- auto:eslint -->
-> Last night's matrix ran **54** plugins, 569M weekly installs between them, against ESLint 10.14.0: **46** clean, **8** not. **6** of those worked on 9.39.5.
+> Last night's matrix ran **54** plugins, 569M weekly installs between them, against ESLint 10.15.0: **46** clean, **8** not. **6** of those worked on 9.39.5.
 <!-- /auto:eslint -->
 
 **[npm-install-census](https://github.com/Booyaka101/npm-install-census)**. What actually runs at `npm install` time, measured daily against a download-ranked sample of the registry with npm-script-lens. [Live dashboard](https://booyaka101.github.io/npm-install-census/).
