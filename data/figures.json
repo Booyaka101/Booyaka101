@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-15T11:09:25+00:00",
+ "generated_utc": "2026-11-16T11:13:04+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 62,
-   "actions-attic": 5,
-   "agent-plugins-conformance-kit": 46,
-   "cargo-witness": 16,
-   "cse-bridge": 12,
-   "eslint10-matrix": 5,
-   "gemcatch": 18,
-   "grok-loop-kit": 15,
-   "grokscope": 16,
+   "@booyaka/mcp-vet": 66,
+   "actions-attic": 6,
+   "agent-plugins-conformance-kit": 44,
+   "cargo-witness": 15,
+   "cse-bridge": 11,
+   "eslint10-matrix": 9,
+   "gemcatch": 24,
+   "grok-loop-kit": 18,
+   "grokscope": 15,
    "mcp-app-debug": 38,
-   "npm-script-lens": 189,
+   "npm-script-lens": 179,
    "pal-schema-collect": 8,
    "pmpt-eject": 4,
-   "pnpm11-ci-guard": 9,
+   "pnpm11-ci-guard": 14,
    "runner-drift": 107,
-   "studio-os": 7,
-   "ts7-compat-guard": 158,
-   "wow-secret-lint": 336
+   "studio-os": 9,
+   "ts7-compat-guard": 173,
+   "wow-secret-lint": 180
   },
   "packages": 18,
   "top": "wow-secret-lint",
-  "top_n": 336,
-  "weekly": 1051
+  "top_n": 180,
+  "weekly": 920
  },
  "radar": {
-  "affected": 1209,
+  "affected": 1208,
   "buckets": [
    [
     "2026.12",
@@ -51,7 +51,7 @@
    ],
    [
     "2027.5",
-    60
+    56
    ],
    [
     "2027.6",
@@ -63,7 +63,7 @@
    ],
    [
     "2027.8",
-    786
+    784
    ],
    [
     "2027.9",
@@ -75,22 +75,22 @@
    ],
    [
     "2027.12",
-    59
+    64
    ]
   ],
   "clean": 5138,
   "core": "2026.12",
-  "findings": 2649,
-  "generated": "2026-11-15T03:29:56Z",
+  "findings": 2662,
+  "generated": "2026-11-16T03:29:10Z",
   "next_count": 1,
   "next_release": "2026.12",
   "rules": 150,
   "scanned": 6279
  },
  "upstream": {
-  "merged": 29,
-  "open": 24,
-  "projects": 23,
+  "merged": 27,
+  "open": 23,
+  "projects": 22,
   "top": [
    [
     "home-assistant/core",
@@ -127,10 +127,6 @@
    [
     "stevearc/aerial.nvim",
     2
-   ],
-   [
-    "obsidian-nvim/obsidian.nvim",
-    1
    ],
    [
     "probberechts/soccerdata",
@@ -174,7 +170,7 @@
    ],
    [
     "benitogf/detritus",
-    2
+    1
    ],
    [
     "benitogf/pivot",
