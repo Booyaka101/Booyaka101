@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-16T11:13:04+00:00",
+ "generated_utc": "2026-11-17T11:11:21+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 66,
-   "actions-attic": 6,
-   "agent-plugins-conformance-kit": 44,
-   "cargo-witness": 15,
-   "cse-bridge": 11,
+   "@booyaka/mcp-vet": 59,
+   "actions-attic": 7,
+   "agent-plugins-conformance-kit": 43,
+   "cargo-witness": 16,
+   "cse-bridge": 7,
    "eslint10-matrix": 9,
-   "gemcatch": 24,
-   "grok-loop-kit": 18,
-   "grokscope": 15,
-   "mcp-app-debug": 38,
-   "npm-script-lens": 179,
+   "gemcatch": 25,
+   "grok-loop-kit": 19,
+   "grokscope": 19,
+   "mcp-app-debug": 34,
+   "npm-script-lens": 151,
    "pal-schema-collect": 8,
-   "pmpt-eject": 4,
-   "pnpm11-ci-guard": 14,
-   "runner-drift": 107,
-   "studio-os": 9,
-   "ts7-compat-guard": 173,
-   "wow-secret-lint": 180
+   "pmpt-eject": 6,
+   "pnpm11-ci-guard": 11,
+   "runner-drift": 95,
+   "studio-os": 14,
+   "ts7-compat-guard": 171,
+   "wow-secret-lint": 127
   },
   "packages": 18,
-  "top": "wow-secret-lint",
-  "top_n": 180,
-  "weekly": 920
+  "top": "ts7-compat-guard",
+  "top_n": 171,
+  "weekly": 821
  },
  "radar": {
-  "affected": 1208,
+  "affected": 1212,
   "buckets": [
    [
     "2026.12",
@@ -51,7 +51,7 @@
    ],
    [
     "2027.5",
-    56
+    54
    ],
    [
     "2027.6",
@@ -63,7 +63,7 @@
    ],
    [
     "2027.8",
-    784
+    786
    ],
    [
     "2027.9",
@@ -71,26 +71,26 @@
    ],
    [
     "2027.10",
-    147
+    148
    ],
    [
     "2027.12",
-    64
+    67
    ]
   ],
-  "clean": 5138,
+  "clean": 5194,
   "core": "2026.12",
-  "findings": 2662,
-  "generated": "2026-11-16T03:29:10Z",
+  "findings": 2670,
+  "generated": "2026-11-17T03:26:09Z",
   "next_count": 1,
   "next_release": "2026.12",
-  "rules": 150,
-  "scanned": 6279
+  "rules": 152,
+  "scanned": 6338
  },
  "upstream": {
-  "merged": 27,
-  "open": 23,
-  "projects": 22,
+  "merged": 25,
+  "open": 17,
+  "projects": 21,
   "top": [
    [
     "home-assistant/core",
@@ -109,10 +109,6 @@
     4
    ],
    [
-    "nvim-lualine/lualine.nvim",
-    1
-   ],
-   [
     "lirantal/awesome-nodejs-security",
     1
    ],
@@ -126,7 +122,7 @@
    ],
    [
     "stevearc/aerial.nvim",
-    2
+    1
    ],
    [
     "probberechts/soccerdata",
