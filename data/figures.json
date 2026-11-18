@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-17T11:11:21+00:00",
+ "generated_utc": "2026-11-18T11:11:59+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 59,
-   "actions-attic": 7,
-   "agent-plugins-conformance-kit": 43,
+   "@booyaka/mcp-vet": 40,
+   "actions-attic": 13,
+   "agent-plugins-conformance-kit": 45,
    "cargo-witness": 16,
-   "cse-bridge": 7,
-   "eslint10-matrix": 9,
-   "gemcatch": 25,
-   "grok-loop-kit": 19,
-   "grokscope": 19,
+   "cse-bridge": 11,
+   "eslint10-matrix": 10,
+   "gemcatch": 23,
+   "grok-loop-kit": 20,
+   "grokscope": 22,
    "mcp-app-debug": 34,
-   "npm-script-lens": 151,
-   "pal-schema-collect": 8,
+   "npm-script-lens": 110,
+   "pal-schema-collect": 7,
    "pmpt-eject": 6,
-   "pnpm11-ci-guard": 11,
-   "runner-drift": 95,
+   "pnpm11-ci-guard": 10,
+   "runner-drift": 79,
    "studio-os": 14,
-   "ts7-compat-guard": 171,
-   "wow-secret-lint": 127
+   "ts7-compat-guard": 127,
+   "wow-secret-lint": 95
   },
   "packages": 18,
   "top": "ts7-compat-guard",
-  "top_n": 171,
-  "weekly": 821
+  "top_n": 127,
+  "weekly": 682
  },
  "radar": {
-  "affected": 1212,
+  "affected": 1240,
   "buckets": [
    [
     "2026.12",
@@ -51,7 +51,7 @@
    ],
    [
     "2027.5",
-    54
+    55
    ],
    [
     "2027.6",
@@ -63,34 +63,34 @@
    ],
    [
     "2027.8",
-    786
+    805
    ],
    [
     "2027.9",
-    89
+    91
    ],
    [
     "2027.10",
-    148
+    153
    ],
    [
     "2027.12",
-    67
+    68
    ]
   ],
-  "clean": 5194,
+  "clean": 5422,
   "core": "2026.12",
-  "findings": 2670,
-  "generated": "2026-11-17T03:26:09Z",
+  "findings": 2712,
+  "generated": "2026-11-18T03:25:57Z",
   "next_count": 1,
   "next_release": "2026.12",
   "rules": 152,
-  "scanned": 6338
+  "scanned": 6593
  },
  "upstream": {
-  "merged": 25,
-  "open": 17,
-  "projects": 21,
+  "merged": 21,
+  "open": 16,
+  "projects": 19,
   "top": [
    [
     "home-assistant/core",
@@ -98,7 +98,7 @@
    ],
    [
     "koreader/koreader",
-    2
+    1
    ],
    [
     "neovim/nvim-lspconfig",
@@ -106,7 +106,7 @@
    ],
    [
     "sqlfluff/sqlfluff",
-    4
+    3
    ],
    [
     "lirantal/awesome-nodejs-security",
@@ -118,10 +118,6 @@
    ],
    [
     "rust-lang/this-week-in-rust",
-    1
-   ],
-   [
-    "stevearc/aerial.nvim",
     1
    ],
    [
@@ -154,10 +150,6 @@
    ],
    [
     "gitbot-hq/Library",
-    1
-   ],
-   [
-    "silveroxides/ComfyUI-ModelUtils",
     1
    ],
    [
