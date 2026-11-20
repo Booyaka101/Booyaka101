@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-19T11:11:41+00:00",
+ "generated_utc": "2026-11-20T11:11:35+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 35,
+   "@booyaka/mcp-vet": 33,
    "actions-attic": 13,
-   "agent-plugins-conformance-kit": 33,
-   "cargo-witness": 16,
-   "cse-bridge": 12,
+   "agent-plugins-conformance-kit": 25,
+   "cargo-witness": 15,
+   "cse-bridge": 17,
    "eslint10-matrix": 11,
-   "gemcatch": 23,
-   "grok-loop-kit": 20,
-   "grokscope": 21,
-   "mcp-app-debug": 33,
-   "npm-script-lens": 109,
+   "gemcatch": 19,
+   "grok-loop-kit": 22,
+   "grokscope": 22,
+   "mcp-app-debug": 32,
+   "npm-script-lens": 95,
    "pal-schema-collect": 9,
    "pmpt-eject": 6,
    "pnpm11-ci-guard": 12,
-   "runner-drift": 69,
-   "studio-os": 13,
-   "ts7-compat-guard": 142,
-   "wow-secret-lint": 81
+   "runner-drift": 68,
+   "studio-os": 14,
+   "ts7-compat-guard": 139,
+   "wow-secret-lint": 74
   },
   "packages": 18,
   "top": "ts7-compat-guard",
-  "top_n": 142,
-  "weekly": 658
+  "top_n": 139,
+  "weekly": 626
  },
  "radar": {
-  "affected": 1242,
+  "affected": 1265,
   "buckets": [
    [
     "2026.12",
@@ -51,11 +51,11 @@
    ],
    [
     "2027.5",
-    55
+    54
    ],
    [
     "2027.6",
-    45
+    44
    ],
    [
     "2027.7",
@@ -63,7 +63,7 @@
    ],
    [
     "2027.8",
-    806
+    824
    ],
    [
     "2027.9",
@@ -71,26 +71,26 @@
    ],
    [
     "2027.10",
-    154
+    160
    ],
    [
     "2027.12",
-    68
+    69
    ]
   ],
-  "clean": 5423,
+  "clean": 5541,
   "core": "2026.12",
-  "findings": 2714,
-  "generated": "2026-11-19T03:26:09Z",
+  "findings": 2731,
+  "generated": "2026-11-20T03:41:27Z",
   "next_count": 1,
   "next_release": "2026.12",
-  "rules": 152,
-  "scanned": 6586
+  "rules": 153,
+  "scanned": 6726
  },
  "upstream": {
-  "merged": 21,
-  "open": 16,
-  "projects": 19,
+  "merged": 20,
+  "open": 15,
+  "projects": 18,
   "top": [
    [
     "home-assistant/core",
@@ -130,10 +130,6 @@
    ],
    [
     "aeon-toolkit/aeon",
-    1
-   ],
-   [
-    "gbprod/yanky.nvim",
     1
    ],
    [

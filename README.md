@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-11-19.</sub>
+<sub>Live figures, rebuilt 2026-11-20.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **658** installs a week between **18** of them, most of it `ts7-compat-guard` at 142.
+> The packages I publish are pulling **626** installs a week between **18** of them, most of it `ts7-compat-guard` at 139.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **6,586** HACS integrations against core 2026.12 and found **2,714** deprecation hits across **1,242** repos. **5,423** are clean. Next up: **1** break in Home Assistant 2026.12.
+> Today's crawl checked **6,726** HACS integrations against core 2026.12 and found **2,731** deprecation hits across **1,265** repos. **5,541** are clean. Next up: **1** break in Home Assistant 2026.12.
 <!-- /auto:radar -->
 
 <picture>
@@ -67,7 +67,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 ### Upstream
 
 <!-- auto:upstream -->
-When I depend on something and hit a real bug, I send the fix back. **21 merged PRs across 19 projects**, including core, koreader, nvim-lspconfig, sqlfluff (3), awesome-nodejs-security, minijinja, this-week-in-rust, soccerdata, Cockatrice, aeon. 16 more open.
+When I depend on something and hit a real bug, I send the fix back. **20 merged PRs across 18 projects**, including core, koreader, nvim-lspconfig, sqlfluff (3), awesome-nodejs-security, minijinja, this-week-in-rust, soccerdata, Cockatrice, aeon. 15 more open.
 <!-- /auto:upstream -->
 
 [Every PR I've opened](https://github.com/issues?q=author%3ABooyaka101+is%3Apr) · [issues I've filed](https://github.com/issues?q=author%3ABooyaka101+is%3Aissue+-author%3Aapp%2Fgithub-actions)
