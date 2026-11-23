@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-22T11:09:33+00:00",
+ "generated_utc": "2026-11-23T11:10:34+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 38,
+   "@booyaka/mcp-vet": 33,
    "actions-attic": 10,
-   "agent-plugins-conformance-kit": 22,
-   "cargo-witness": 7,
-   "cse-bridge": 14,
-   "eslint10-matrix": 9,
-   "gemcatch": 17,
-   "grok-loop-kit": 18,
-   "grokscope": 14,
-   "mcp-app-debug": 38,
-   "npm-script-lens": 83,
-   "pal-schema-collect": 3,
-   "pmpt-eject": 4,
-   "pnpm11-ci-guard": 8,
-   "runner-drift": 36,
-   "studio-os": 14,
-   "ts7-compat-guard": 116,
-   "wow-secret-lint": 67
+   "agent-plugins-conformance-kit": 24,
+   "cargo-witness": 8,
+   "cse-bridge": 22,
+   "eslint10-matrix": 5,
+   "gemcatch": 11,
+   "grok-loop-kit": 19,
+   "grokscope": 24,
+   "mcp-app-debug": 57,
+   "npm-script-lens": 74,
+   "pal-schema-collect": 8,
+   "pmpt-eject": 6,
+   "pnpm11-ci-guard": 4,
+   "runner-drift": 35,
+   "studio-os": 13,
+   "ts7-compat-guard": 105,
+   "wow-secret-lint": 69
   },
   "packages": 18,
   "top": "ts7-compat-guard",
-  "top_n": 116,
-  "weekly": 518
+  "top_n": 105,
+  "weekly": 527
  },
  "radar": {
-  "affected": 1274,
+  "affected": 1275,
   "buckets": [
    [
     "2026.12",
@@ -63,7 +63,7 @@
    ],
    [
     "2027.8",
-    834
+    837
    ],
    [
     "2027.9",
@@ -71,26 +71,26 @@
    ],
    [
     "2027.10",
-    159
+    155
    ],
    [
     "2027.12",
-    73
+    75
    ]
   ],
-  "clean": 5568,
+  "clean": 5599,
   "core": "2026.12",
-  "findings": 2772,
-  "generated": "2026-11-22T03:28:56Z",
+  "findings": 2787,
+  "generated": "2026-11-23T03:32:12Z",
   "next_count": 1,
   "next_release": "2026.12",
-  "rules": 153,
-  "scanned": 6759
+  "rules": 154,
+  "scanned": 6789
  },
  "upstream": {
-  "merged": 19,
-  "open": 14,
-  "projects": 17,
+  "merged": 20,
+  "open": 13,
+  "projects": 18,
   "top": [
    [
     "home-assistant/core",
@@ -110,6 +110,10 @@
    ],
    [
     "lirantal/awesome-nodejs-security",
+    1
+   ],
+   [
+    "niklasf/python-chess",
     1
    ],
    [
