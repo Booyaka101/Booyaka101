@@ -15,35 +15,35 @@
   "v9": "9.39.5"
  },
  "fable": null,
- "generated_utc": "2026-11-23T11:10:34+00:00",
+ "generated_utc": "2026-11-24T11:11:44+00:00",
  "npm": {
   "each": {
-   "@booyaka/mcp-vet": 33,
-   "actions-attic": 10,
-   "agent-plugins-conformance-kit": 24,
-   "cargo-witness": 8,
-   "cse-bridge": 22,
-   "eslint10-matrix": 5,
-   "gemcatch": 11,
-   "grok-loop-kit": 19,
-   "grokscope": 24,
-   "mcp-app-debug": 57,
-   "npm-script-lens": 74,
+   "@booyaka/mcp-vet": 52,
+   "actions-attic": 15,
+   "agent-plugins-conformance-kit": 23,
+   "cargo-witness": 14,
+   "cse-bridge": 23,
+   "eslint10-matrix": 10,
+   "gemcatch": 20,
+   "grok-loop-kit": 18,
+   "grokscope": 18,
+   "mcp-app-debug": 51,
+   "npm-script-lens": 98,
    "pal-schema-collect": 8,
-   "pmpt-eject": 6,
-   "pnpm11-ci-guard": 4,
-   "runner-drift": 35,
-   "studio-os": 13,
-   "ts7-compat-guard": 105,
-   "wow-secret-lint": 69
+   "pmpt-eject": 4,
+   "pnpm11-ci-guard": 11,
+   "runner-drift": 42,
+   "studio-os": 14,
+   "ts7-compat-guard": 90,
+   "wow-secret-lint": 80
   },
   "packages": 18,
-  "top": "ts7-compat-guard",
-  "top_n": 105,
-  "weekly": 527
+  "top": "npm-script-lens",
+  "top_n": 98,
+  "weekly": 591
  },
  "radar": {
-  "affected": 1275,
+  "affected": 1282,
   "buckets": [
    [
     "2026.12",
@@ -51,7 +51,7 @@
    ],
    [
     "2027.5",
-    53
+    51
    ],
    [
     "2027.6",
@@ -59,45 +59,41 @@
    ],
    [
     "2027.7",
-    21
+    22
    ],
    [
     "2027.8",
-    837
+    841
    ],
    [
     "2027.9",
-    89
+    88
    ],
    [
     "2027.10",
-    155
+    158
    ],
    [
     "2027.12",
-    75
+    77
    ]
   ],
-  "clean": 5599,
+  "clean": 5612,
   "core": "2026.12",
-  "findings": 2787,
-  "generated": "2026-11-23T03:32:12Z",
+  "findings": 2804,
+  "generated": "2026-11-24T03:30:27Z",
   "next_count": 1,
   "next_release": "2026.12",
   "rules": 154,
-  "scanned": 6789
+  "scanned": 6806
  },
  "upstream": {
-  "merged": 20,
-  "open": 13,
-  "projects": 18,
+  "merged": 16,
+  "open": 11,
+  "projects": 15,
   "top": [
    [
     "home-assistant/core",
-    1
-   ],
-   [
-    "koreader/koreader",
     1
    ],
    [
@@ -106,7 +102,7 @@
    ],
    [
     "sqlfluff/sqlfluff",
-    3
+    2
    ],
    [
     "lirantal/awesome-nodejs-security",
@@ -129,10 +125,6 @@
     1
    ],
    [
-    "Cockatrice/Cockatrice",
-    1
-   ],
-   [
     "aeon-toolkit/aeon",
     1
    ],
@@ -142,10 +134,6 @@
    ],
    [
     "punkpeye/awesome-mcp-devtools",
-    1
-   ],
-   [
-    "arthurprs/qfilter",
     1
    ],
    [
