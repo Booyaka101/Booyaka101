@@ -8,11 +8,11 @@ Hong Kong. I build guardrails for dependency and toolchain risk, plus local AI p
 </picture>
 
 <!-- auto:stamp -->
-<sub>Live figures, rebuilt 2026-11-24.</sub>
+<sub>Live figures, rebuilt 2026-11-25.</sub>
 <!-- /auto:stamp -->
 
 <!-- auto:npm -->
-> The packages I publish are pulling **591** installs a week between **18** of them, most of it `npm-script-lens` at 98.
+> The packages I publish are pulling **593** installs a week between **18** of them, most of it `npm-script-lens` at 98.
 <!-- /auto:npm -->
 
 ### Ecosystem watch
@@ -22,7 +22,7 @@ Three ecosystems I crawl on a schedule, so the answer is already sitting there w
 **[hass-breakage-radar](https://github.com/Booyaka101/hass-breakage-radar)**. Which of your Home Assistant custom integrations stop working, and in which future release. Crawls every HACS integration daily for deprecated HA APIs, and ships a HACS-installable integration that reports on your own box. [Live dashboard](https://booyaka101.github.io/hass-breakage-radar/).
 
 <!-- auto:radar -->
-> Today's crawl checked **6,806** HACS integrations against core 2026.12 and found **2,804** deprecation hits across **1,282** repos. **5,612** are clean. Next up: **1** break in Home Assistant 2026.12.
+> Today's crawl checked **6,958** HACS integrations against core 2026.12 and found **2,820** deprecation hits across **1,295** repos. **5,752** are clean. Next up: **2** break in Home Assistant 2026.12.
 <!-- /auto:radar -->
 
 <picture>
